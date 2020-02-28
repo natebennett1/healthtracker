@@ -1,0 +1,28 @@
+[debug] [2020-02-27T23:38:53.886Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T23:38:53.907Z] Command:       /usr/local/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2020-02-27T23:38:53.909Z] CLI Version:   7.11.0
+[debug] [2020-02-27T23:38:53.919Z] Platform:      darwin
+[debug] [2020-02-27T23:38:53.920Z] Node Version:  v12.14.0
+[debug] [2020-02-27T23:38:53.932Z] Time:          Thu Feb 27 2020 16:38:53 GMT-0700 (Mountain Standard Time)
+[debug] [2020-02-27T23:38:53.932Z] ----------------------------------------------------------------------
+[debug] [2020-02-27T23:38:53.933Z] 
+[debug] [2020-02-27T23:38:54.049Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-27T23:38:54.051Z] > authorizing via signed-in user
+[debug] [2020-02-27T23:38:54.052Z] [iam] checking project healthtracker-62372 for permissions ["firebase.projects.get"]
+[debug] [2020-02-27T23:38:54.068Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/healthtracker-62372:testIamPermissions  
+
+[debug] [2020-02-27T23:38:54.973Z] <<< HTTP RESPONSE 200
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5000
+[debug] [2020-02-27T23:38:55.653Z] [functions] Watching "/Users/nathanbennett/Documents/healthtracker/functions" for Cloud Functions...
+[debug] [2020-02-27T23:38:55.894Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-27T23:38:55.938Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-27T23:38:56.014Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-27T23:38:56.022Z] DEBUG: [worker-~diagnostic~-dd966815-5b76-454b-8716-99b9a1474695]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_5619.sock
+[debug] [2020-02-27T23:38:56.035Z] DEBUG: [worker-~diagnostic~-dd966815-5b76-454b-8716-99b9a1474695]: BUSY
+[debug] [2020-02-27T23:39:00.009Z] DEBUG: [runtime-status] [5619] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-27T23:39:00.033Z] DEBUG: [runtime-status] [5619] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-27T23:39:00.090Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-27T23:39:00.266Z] DEBUG: [worker-~diagnostic~-dd966815-5b76-454b-8716-99b9a1474695]: exited
+[debug] [2020-02-27T23:39:00.267Z] DEBUG: [worker-~diagnostic~-dd966815-5b76-454b-8716-99b9a1474695]: FINISHED

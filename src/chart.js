@@ -14,12 +14,7 @@ import {
   Typography,
   Radio
 } from "@material-ui/core";
-import VerySad from "@material-ui/icons/SentimentVeryDissatisfied";
-import Sad from "@material-ui/icons/SentimentDissatisfied";
-import Happy from "@material-ui/icons/SentimentSatisfied";
-import VeryHappy from "@material-ui/icons/SentimentSatisfiedAlt";
-import { Link, Route } from "react-router-dom";
-import { auth } from "./firebase";
+import { Line } from "react-chartjs-2";
 
 export default function Chart(props) {
   const [surveys, setSurveys] = useState([]);
@@ -45,12 +40,45 @@ export default function Chart(props) {
       });
   }, []);
 
+  useEffect(() => {
+    const lbls = surveys.map(survey => {
+      return moment(survey.date).format("M/D/YY");
+    });
+    setLabels(lbls);
+
+    const sets = [];
+
+    const sleep = {
+      label: "Hours of sleep",
+      data: surveys.map(s => s.sleep),
+      borderColor: "red",
+      borderWidth: 1
+    };
+    sets.push(sleep);
+
+    const happiness = {
+      label: "Happiness",
+      data: surveys.map(s => s.happiness),
+      borderColor: "blue",
+      borderWidth: 1
+    };
+    sets.push(sleep);
+
+    setDataSets(sets)
+  }, [surveys]);
+
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <paper
         style={{ padding: 12, marginTop: 30, width: "100", maxWidth: 400 }}
       >
         <Typography variant="h4">Survey</Typography>
+        <Line
+            data={{
+                labels:labels,
+                datasets: dataSets
+            }}
+        />
       </paper>
     </div>
   );

@@ -26,3 +26,1286 @@
 [debug] [2020-02-27T23:39:00.090Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
 [debug] [2020-02-27T23:39:00.266Z] DEBUG: [worker-~diagnostic~-dd966815-5b76-454b-8716-99b9a1474695]: exited
 [debug] [2020-02-27T23:39:00.267Z] DEBUG: [worker-~diagnostic~-dd966815-5b76-454b-8716-99b9a1474695]: FINISHED
+[debug] [2020-02-29T18:44:08.067Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:44:09.125Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:44:09.436Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:44:09.437Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:44:09.437Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:44:09.438Z] DEBUG: [worker-~diagnostic~-404cf2c2-6dd8-4092-85c9-9f68a75d8ae1]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13028.sock
+[debug] [2020-02-29T18:44:09.439Z] DEBUG: [worker-~diagnostic~-404cf2c2-6dd8-4092-85c9-9f68a75d8ae1]: BUSY
+[debug] [2020-02-29T18:44:11.207Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:44:12.215Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:44:12.217Z] DEBUG: [worker-~diagnostic~-404cf2c2-6dd8-4092-85c9-9f68a75d8ae1]: FINISHING
+[debug] [2020-02-29T18:44:12.316Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:44:12.317Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:44:12.317Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:44:12.318Z] DEBUG: [worker-~diagnostic~-10e0018f-0bf9-44c2-866a-e083c32b2b51]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13035.sock
+[debug] [2020-02-29T18:44:12.323Z] DEBUG: [worker-~diagnostic~-10e0018f-0bf9-44c2-866a-e083c32b2b51]: BUSY
+[debug] [2020-02-29T18:44:15.290Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:44:16.292Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:44:16.293Z] DEBUG: [worker-~diagnostic~-10e0018f-0bf9-44c2-866a-e083c32b2b51]: FINISHING
+[debug] [2020-02-29T18:44:16.322Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:44:16.323Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:44:16.323Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:44:16.324Z] DEBUG: [worker-~diagnostic~-0386b41c-6187-44d7-9214-f080700e21a1]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13038.sock
+[debug] [2020-02-29T18:44:16.325Z] DEBUG: [worker-~diagnostic~-0386b41c-6187-44d7-9214-f080700e21a1]: BUSY
+[debug] [2020-02-29T18:44:20.124Z] DEBUG: [runtime-status] [13028] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:44:20.174Z] DEBUG: [runtime-status] [13028] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:44:20.198Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:44:20.244Z] DEBUG: [worker-~diagnostic~-404cf2c2-6dd8-4092-85c9-9f68a75d8ae1]: exited
+[debug] [2020-02-29T18:44:20.245Z] DEBUG: [worker-~diagnostic~-404cf2c2-6dd8-4092-85c9-9f68a75d8ae1]: FINISHED
+[debug] [2020-02-29T18:44:21.907Z] DEBUG: [runtime-status] [13035] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:44:21.954Z] DEBUG: [runtime-status] [13035] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:44:22.034Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:44:22.124Z] DEBUG: [worker-~diagnostic~-10e0018f-0bf9-44c2-866a-e083c32b2b51]: exited
+[debug] [2020-02-29T18:44:22.125Z] DEBUG: [worker-~diagnostic~-10e0018f-0bf9-44c2-866a-e083c32b2b51]: FINISHED
+[debug] [2020-02-29T18:44:24.988Z] DEBUG: [runtime-status] [13038] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:44:25.020Z] DEBUG: [runtime-status] [13038] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:44:25.080Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:44:25.169Z] DEBUG: [worker-~diagnostic~-0386b41c-6187-44d7-9214-f080700e21a1]: exited
+[debug] [2020-02-29T18:44:25.170Z] DEBUG: [worker-~diagnostic~-0386b41c-6187-44d7-9214-f080700e21a1]: FINISHED
+[debug] [2020-02-29T18:45:29.896Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:30.900Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T18:45:30.926Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:30.927Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:45:30.927Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:30.928Z] DEBUG: [worker-~diagnostic~-2e98ff63-3f68-4709-ab52-65577d535ca9]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13053.sock
+[debug] [2020-02-29T18:45:30.929Z] DEBUG: [worker-~diagnostic~-2e98ff63-3f68-4709-ab52-65577d535ca9]: BUSY
+[debug] [2020-02-29T18:45:34.005Z] DEBUG: [runtime-status] [13053] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:45:34.017Z] DEBUG: [runtime-status] [13053] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:45:34.023Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:45:34.060Z] DEBUG: [worker-~diagnostic~-2e98ff63-3f68-4709-ab52-65577d535ca9]: exited
+[debug] [2020-02-29T18:45:34.061Z] DEBUG: [worker-~diagnostic~-2e98ff63-3f68-4709-ab52-65577d535ca9]: FINISHED
+[debug] [2020-02-29T18:45:42.198Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:42.288Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:43.309Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:45:43.344Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:43.345Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:45:43.346Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:43.346Z] DEBUG: [worker-~diagnostic~-ae642eee-b77c-4ef5-979e-e6c27cacc9b3]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13073.sock
+[debug] [2020-02-29T18:45:43.347Z] DEBUG: [worker-~diagnostic~-ae642eee-b77c-4ef5-979e-e6c27cacc9b3]: BUSY
+[debug] [2020-02-29T18:45:45.917Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:46.919Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:45:46.920Z] DEBUG: [worker-~diagnostic~-ae642eee-b77c-4ef5-979e-e6c27cacc9b3]: FINISHING
+[debug] [2020-02-29T18:45:46.959Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:46.960Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:45:46.960Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:46.961Z] DEBUG: [worker-~diagnostic~-8f1fc959-1973-4f43-93ac-b5a9e2906ceb]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13082.sock
+[debug] [2020-02-29T18:45:46.961Z] DEBUG: [worker-~diagnostic~-8f1fc959-1973-4f43-93ac-b5a9e2906ceb]: BUSY
+[debug] [2020-02-29T18:45:46.963Z] DEBUG: [runtime-status] [13073] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:45:46.996Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:47.097Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:47.123Z] DEBUG: [runtime-status] [13073] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:45:47.156Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:45:47.292Z] DEBUG: [worker-~diagnostic~-ae642eee-b77c-4ef5-979e-e6c27cacc9b3]: exited
+[debug] [2020-02-29T18:45:47.293Z] DEBUG: [worker-~diagnostic~-ae642eee-b77c-4ef5-979e-e6c27cacc9b3]: FINISHED
+[debug] [2020-02-29T18:45:48.099Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:45:48.100Z] DEBUG: [worker-~diagnostic~-8f1fc959-1973-4f43-93ac-b5a9e2906ceb]: FINISHING
+[debug] [2020-02-29T18:45:48.101Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-29T18:45:48.140Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:48.142Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:45:48.142Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:48.143Z] DEBUG: [worker-~diagnostic~-ac9406cd-b74f-45af-8f85-335dd4539499]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13083.sock
+[debug] [2020-02-29T18:45:48.143Z] DEBUG: [worker-~diagnostic~-ac9406cd-b74f-45af-8f85-335dd4539499]: BUSY
+[debug] [2020-02-29T18:45:51.234Z] DEBUG: [runtime-status] [13082] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:45:51.245Z] DEBUG: [runtime-status] [13082] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:45:51.296Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:45:51.566Z] DEBUG: [worker-~diagnostic~-8f1fc959-1973-4f43-93ac-b5a9e2906ceb]: exited
+[debug] [2020-02-29T18:45:51.568Z] DEBUG: [worker-~diagnostic~-8f1fc959-1973-4f43-93ac-b5a9e2906ceb]: FINISHED
+[debug] [2020-02-29T18:45:52.423Z] DEBUG: [runtime-status] [13083] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:45:52.443Z] DEBUG: [runtime-status] [13083] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:45:52.462Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:45:52.506Z] DEBUG: [worker-~diagnostic~-ac9406cd-b74f-45af-8f85-335dd4539499]: exited
+[debug] [2020-02-29T18:45:52.507Z] DEBUG: [worker-~diagnostic~-ac9406cd-b74f-45af-8f85-335dd4539499]: FINISHED
+[debug] [2020-02-29T18:45:55.712Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:56.719Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:45:56.745Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:56.746Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:45:56.746Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:56.747Z] DEBUG: [worker-~diagnostic~-c050d2da-2113-46be-aacf-8e04f54e6894]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13093.sock
+[debug] [2020-02-29T18:45:56.748Z] DEBUG: [worker-~diagnostic~-c050d2da-2113-46be-aacf-8e04f54e6894]: BUSY
+[debug] [2020-02-29T18:45:57.007Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:57.116Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:58.118Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:45:58.119Z] DEBUG: [worker-~diagnostic~-c050d2da-2113-46be-aacf-8e04f54e6894]: FINISHING
+[debug] [2020-02-29T18:45:58.142Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:58.143Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:45:58.143Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:58.144Z] DEBUG: [worker-~diagnostic~-1d0ec867-2969-45d8-8e1d-bd780c5ecae7]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13094.sock
+[debug] [2020-02-29T18:45:58.144Z] DEBUG: [worker-~diagnostic~-1d0ec867-2969-45d8-8e1d-bd780c5ecae7]: BUSY
+[debug] [2020-02-29T18:45:58.695Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:45:59.696Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:45:59.698Z] DEBUG: [worker-~diagnostic~-1d0ec867-2969-45d8-8e1d-bd780c5ecae7]: FINISHING
+[debug] [2020-02-29T18:45:59.753Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:45:59.755Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:45:59.755Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:45:59.756Z] DEBUG: [worker-~diagnostic~-f856dc4b-d9dd-4ffc-8cd5-061f27edf48d]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13097.sock
+[debug] [2020-02-29T18:45:59.757Z] DEBUG: [worker-~diagnostic~-f856dc4b-d9dd-4ffc-8cd5-061f27edf48d]: BUSY
+[debug] [2020-02-29T18:46:00.767Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:00.913Z] DEBUG: [runtime-status] [13093] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:00.969Z] DEBUG: [runtime-status] [13093] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:01.016Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:01.138Z] DEBUG: [worker-~diagnostic~-c050d2da-2113-46be-aacf-8e04f54e6894]: exited
+[debug] [2020-02-29T18:46:01.139Z] DEBUG: [worker-~diagnostic~-c050d2da-2113-46be-aacf-8e04f54e6894]: FINISHED
+[debug] [2020-02-29T18:46:01.768Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:01.769Z] DEBUG: [worker-~diagnostic~-f856dc4b-d9dd-4ffc-8cd5-061f27edf48d]: FINISHING
+[debug] [2020-02-29T18:46:01.770Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 2
+[debug] [2020-02-29T18:46:01.796Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:01.797Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:46:01.797Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:01.798Z] DEBUG: [worker-~diagnostic~-f6b7afae-7bbc-4bcc-9a46-34e870c7d783]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13104.sock
+[debug] [2020-02-29T18:46:01.798Z] DEBUG: [worker-~diagnostic~-f6b7afae-7bbc-4bcc-9a46-34e870c7d783]: BUSY
+[debug] [2020-02-29T18:46:03.513Z] DEBUG: [runtime-status] [13094] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:03.538Z] DEBUG: [runtime-status] [13094] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:03.615Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:03.710Z] DEBUG: [worker-~diagnostic~-1d0ec867-2969-45d8-8e1d-bd780c5ecae7]: exited
+[debug] [2020-02-29T18:46:03.710Z] DEBUG: [worker-~diagnostic~-1d0ec867-2969-45d8-8e1d-bd780c5ecae7]: FINISHED
+[debug] [2020-02-29T18:46:04.699Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:05.497Z] DEBUG: [runtime-status] [13097] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:05.515Z] DEBUG: [runtime-status] [13097] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:05.628Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:05.702Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:05.703Z] DEBUG: [worker-~diagnostic~-f6b7afae-7bbc-4bcc-9a46-34e870c7d783]: FINISHING
+[debug] [2020-02-29T18:46:05.704Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 2
+[debug] [2020-02-29T18:46:05.733Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:05.734Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:46:05.735Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:05.736Z] DEBUG: [worker-~diagnostic~-9b95a149-51b7-4031-a568-c3ffa5470242]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13107.sock
+[debug] [2020-02-29T18:46:05.737Z] DEBUG: [worker-~diagnostic~-9b95a149-51b7-4031-a568-c3ffa5470242]: BUSY
+[debug] [2020-02-29T18:46:05.824Z] DEBUG: [worker-~diagnostic~-f856dc4b-d9dd-4ffc-8cd5-061f27edf48d]: exited
+[debug] [2020-02-29T18:46:05.825Z] DEBUG: [worker-~diagnostic~-f856dc4b-d9dd-4ffc-8cd5-061f27edf48d]: FINISHED
+[debug] [2020-02-29T18:46:07.407Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:07.445Z] DEBUG: [runtime-status] [13104] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:07.586Z] DEBUG: [runtime-status] [13104] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:07.602Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:07.681Z] DEBUG: [worker-~diagnostic~-f6b7afae-7bbc-4bcc-9a46-34e870c7d783]: exited
+[debug] [2020-02-29T18:46:07.681Z] DEBUG: [worker-~diagnostic~-f6b7afae-7bbc-4bcc-9a46-34e870c7d783]: FINISHED
+[debug] [2020-02-29T18:46:08.409Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:08.410Z] DEBUG: [worker-~diagnostic~-9b95a149-51b7-4031-a568-c3ffa5470242]: FINISHING
+[debug] [2020-02-29T18:46:08.411Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 1
+[debug] [2020-02-29T18:46:08.452Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:08.459Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:46:08.461Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:08.463Z] DEBUG: [worker-~diagnostic~-f20da117-f7ca-4192-bd8f-a48acce26355]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13114.sock
+[debug] [2020-02-29T18:46:08.467Z] DEBUG: [worker-~diagnostic~-f20da117-f7ca-4192-bd8f-a48acce26355]: BUSY
+[debug] [2020-02-29T18:46:09.444Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:09.544Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:10.548Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:10.549Z] DEBUG: [worker-~diagnostic~-f20da117-f7ca-4192-bd8f-a48acce26355]: FINISHING
+[debug] [2020-02-29T18:46:10.575Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:10.575Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:46:10.576Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:10.577Z] DEBUG: [worker-~diagnostic~-71947f10-8aec-47cd-8e06-11ce77fe25f5]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13115.sock
+[debug] [2020-02-29T18:46:10.577Z] DEBUG: [worker-~diagnostic~-71947f10-8aec-47cd-8e06-11ce77fe25f5]: BUSY
+[debug] [2020-02-29T18:46:10.783Z] DEBUG: [runtime-status] [13107] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:10.815Z] DEBUG: [runtime-status] [13107] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:10.849Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:10.906Z] DEBUG: [worker-~diagnostic~-9b95a149-51b7-4031-a568-c3ffa5470242]: exited
+[debug] [2020-02-29T18:46:10.907Z] DEBUG: [worker-~diagnostic~-9b95a149-51b7-4031-a568-c3ffa5470242]: FINISHED
+[debug] [2020-02-29T18:46:12.192Z] DEBUG: [runtime-status] [13114] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:12.209Z] DEBUG: [runtime-status] [13114] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:12.242Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:12.297Z] DEBUG: [worker-~diagnostic~-f20da117-f7ca-4192-bd8f-a48acce26355]: exited
+[debug] [2020-02-29T18:46:12.298Z] DEBUG: [worker-~diagnostic~-f20da117-f7ca-4192-bd8f-a48acce26355]: FINISHED
+[debug] [2020-02-29T18:46:13.155Z] DEBUG: [runtime-status] [13115] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:13.209Z] DEBUG: [runtime-status] [13115] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:13.221Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:13.301Z] DEBUG: [worker-~diagnostic~-71947f10-8aec-47cd-8e06-11ce77fe25f5]: exited
+[debug] [2020-02-29T18:46:13.302Z] DEBUG: [worker-~diagnostic~-71947f10-8aec-47cd-8e06-11ce77fe25f5]: FINISHED
+[debug] [2020-02-29T18:46:19.430Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:20.432Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T18:46:20.471Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:20.472Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:46:20.472Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:20.473Z] DEBUG: [worker-~diagnostic~-39f06153-c77f-4dcd-94ac-4830e6c4f8c5]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13131.sock
+[debug] [2020-02-29T18:46:20.473Z] DEBUG: [worker-~diagnostic~-39f06153-c77f-4dcd-94ac-4830e6c4f8c5]: BUSY
+[debug] [2020-02-29T18:46:21.937Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:22.039Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:23.043Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:23.043Z] DEBUG: [worker-~diagnostic~-39f06153-c77f-4dcd-94ac-4830e6c4f8c5]: FINISHING
+[debug] [2020-02-29T18:46:23.107Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:23.111Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:46:23.112Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:23.112Z] DEBUG: [worker-~diagnostic~-9eb31ec1-1189-4c0e-86ff-989c11446db3]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13140.sock
+[debug] [2020-02-29T18:46:23.113Z] DEBUG: [worker-~diagnostic~-9eb31ec1-1189-4c0e-86ff-989c11446db3]: BUSY
+[debug] [2020-02-29T18:46:24.163Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:25.166Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:25.167Z] DEBUG: [worker-~diagnostic~-9eb31ec1-1189-4c0e-86ff-989c11446db3]: FINISHING
+[debug] [2020-02-29T18:46:25.197Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:25.198Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:46:25.199Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:25.200Z] DEBUG: [worker-~diagnostic~-05ca2e50-c478-4185-b853-2477aa767645]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13141.sock
+[debug] [2020-02-29T18:46:25.200Z] DEBUG: [worker-~diagnostic~-05ca2e50-c478-4185-b853-2477aa767645]: BUSY
+[debug] [2020-02-29T18:46:25.463Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:26.467Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:26.468Z] DEBUG: [worker-~diagnostic~-05ca2e50-c478-4185-b853-2477aa767645]: FINISHING
+[debug] [2020-02-29T18:46:26.500Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:26.501Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=4
+[debug] [2020-02-29T18:46:26.501Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:26.502Z] DEBUG: [worker-~diagnostic~-00a33ddf-3d95-44d2-a3d3-0ff0569252a1]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13142.sock
+[debug] [2020-02-29T18:46:26.502Z] DEBUG: [worker-~diagnostic~-00a33ddf-3d95-44d2-a3d3-0ff0569252a1]: BUSY
+[debug] [2020-02-29T18:46:27.401Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:27.581Z] DEBUG: [runtime-status] [13131] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:27.715Z] DEBUG: [runtime-status] [13131] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:27.786Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:28.170Z] DEBUG: [worker-~diagnostic~-39f06153-c77f-4dcd-94ac-4830e6c4f8c5]: exited
+[debug] [2020-02-29T18:46:28.171Z] DEBUG: [worker-~diagnostic~-39f06153-c77f-4dcd-94ac-4830e6c4f8c5]: FINISHED
+[debug] [2020-02-29T18:46:28.405Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:46:28.406Z] DEBUG: [worker-~diagnostic~-00a33ddf-3d95-44d2-a3d3-0ff0569252a1]: FINISHING
+[debug] [2020-02-29T18:46:28.406Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 4 --> 3
+[debug] [2020-02-29T18:46:28.434Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:28.435Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=4
+[debug] [2020-02-29T18:46:28.435Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:28.436Z] DEBUG: [worker-~diagnostic~-93265d1d-9cbd-4c24-98cd-1b143d70ca05]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13144.sock
+[debug] [2020-02-29T18:46:28.436Z] DEBUG: [worker-~diagnostic~-93265d1d-9cbd-4c24-98cd-1b143d70ca05]: BUSY
+[debug] [2020-02-29T18:46:31.004Z] DEBUG: [runtime-status] [13140] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:31.016Z] DEBUG: [runtime-status] [13140] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:31.050Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:31.127Z] DEBUG: [worker-~diagnostic~-9eb31ec1-1189-4c0e-86ff-989c11446db3]: exited
+[debug] [2020-02-29T18:46:31.128Z] DEBUG: [worker-~diagnostic~-9eb31ec1-1189-4c0e-86ff-989c11446db3]: FINISHED
+[debug] [2020-02-29T18:46:33.413Z] DEBUG: [runtime-status] [13141] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:33.422Z] DEBUG: [runtime-status] [13141] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:33.492Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:33.548Z] DEBUG: [worker-~diagnostic~-05ca2e50-c478-4185-b853-2477aa767645]: exited
+[debug] [2020-02-29T18:46:33.548Z] DEBUG: [worker-~diagnostic~-05ca2e50-c478-4185-b853-2477aa767645]: FINISHED
+[debug] [2020-02-29T18:46:34.224Z] DEBUG: [runtime-status] [13142] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:34.233Z] DEBUG: [runtime-status] [13142] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:34.342Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:34.389Z] DEBUG: [worker-~diagnostic~-00a33ddf-3d95-44d2-a3d3-0ff0569252a1]: exited
+[debug] [2020-02-29T18:46:34.394Z] DEBUG: [worker-~diagnostic~-00a33ddf-3d95-44d2-a3d3-0ff0569252a1]: FINISHED
+[debug] [2020-02-29T18:46:34.811Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:35.440Z] DEBUG: [runtime-status] [13144] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:35.457Z] DEBUG: [runtime-status] [13144] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:35.467Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:35.572Z] DEBUG: [worker-~diagnostic~-93265d1d-9cbd-4c24-98cd-1b143d70ca05]: exited
+[debug] [2020-02-29T18:46:35.573Z] DEBUG: [worker-~diagnostic~-93265d1d-9cbd-4c24-98cd-1b143d70ca05]: FINISHED
+[debug] [2020-02-29T18:46:35.812Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 4 --> 0
+[debug] [2020-02-29T18:46:35.860Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:35.861Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:46:35.861Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:35.862Z] DEBUG: [worker-~diagnostic~-45f0d420-2032-4b38-9f35-207b9418c68c]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13160.sock
+[debug] [2020-02-29T18:46:35.862Z] DEBUG: [worker-~diagnostic~-45f0d420-2032-4b38-9f35-207b9418c68c]: BUSY
+[debug] [2020-02-29T18:46:37.663Z] DEBUG: [runtime-status] [13160] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:37.683Z] DEBUG: [runtime-status] [13160] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:37.734Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:37.831Z] DEBUG: [worker-~diagnostic~-45f0d420-2032-4b38-9f35-207b9418c68c]: exited
+[debug] [2020-02-29T18:46:37.832Z] DEBUG: [worker-~diagnostic~-45f0d420-2032-4b38-9f35-207b9418c68c]: FINISHED
+[debug] [2020-02-29T18:46:39.213Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:39.313Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:46:40.321Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:46:40.367Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:46:40.369Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:46:40.369Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:46:40.370Z] DEBUG: [worker-~diagnostic~-56e3cfe6-e988-45bf-b6ff-8a994790843e]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13161.sock
+[debug] [2020-02-29T18:46:40.370Z] DEBUG: [worker-~diagnostic~-56e3cfe6-e988-45bf-b6ff-8a994790843e]: BUSY
+[debug] [2020-02-29T18:46:43.336Z] DEBUG: [runtime-status] [13161] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:46:43.376Z] DEBUG: [runtime-status] [13161] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:46:43.398Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:46:43.452Z] DEBUG: [worker-~diagnostic~-56e3cfe6-e988-45bf-b6ff-8a994790843e]: exited
+[debug] [2020-02-29T18:46:43.454Z] DEBUG: [worker-~diagnostic~-56e3cfe6-e988-45bf-b6ff-8a994790843e]: FINISHED
+[debug] [2020-02-29T18:49:08.937Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:09.950Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:49:09.980Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:09.981Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:49:09.981Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:09.982Z] DEBUG: [worker-~diagnostic~-a5519d47-be45-407f-9722-6d81a128bd2b]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13241.sock
+[debug] [2020-02-29T18:49:09.982Z] DEBUG: [worker-~diagnostic~-a5519d47-be45-407f-9722-6d81a128bd2b]: BUSY
+[debug] [2020-02-29T18:49:12.667Z] DEBUG: [runtime-status] [13241] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:12.678Z] DEBUG: [runtime-status] [13241] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:12.691Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:12.731Z] DEBUG: [worker-~diagnostic~-a5519d47-be45-407f-9722-6d81a128bd2b]: exited
+[debug] [2020-02-29T18:49:12.731Z] DEBUG: [worker-~diagnostic~-a5519d47-be45-407f-9722-6d81a128bd2b]: FINISHED
+[debug] [2020-02-29T18:49:19.333Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:20.340Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:49:20.365Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:20.366Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:49:20.367Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:20.367Z] DEBUG: [worker-~diagnostic~-b9675648-5465-402f-878a-10b5d68b16c9]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13250.sock
+[debug] [2020-02-29T18:49:20.368Z] DEBUG: [worker-~diagnostic~-b9675648-5465-402f-878a-10b5d68b16c9]: BUSY
+[debug] [2020-02-29T18:49:22.137Z] DEBUG: [runtime-status] [13250] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:22.150Z] DEBUG: [runtime-status] [13250] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:22.159Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:22.207Z] DEBUG: [worker-~diagnostic~-b9675648-5465-402f-878a-10b5d68b16c9]: exited
+[debug] [2020-02-29T18:49:22.207Z] DEBUG: [worker-~diagnostic~-b9675648-5465-402f-878a-10b5d68b16c9]: FINISHED
+[debug] [2020-02-29T18:49:28.014Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:28.126Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:29.131Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:49:29.161Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:29.162Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:49:29.162Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:29.163Z] DEBUG: [worker-~diagnostic~-a594c045-6005-45c4-ad4d-7b8b2338e06e]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13259.sock
+[debug] [2020-02-29T18:49:29.163Z] DEBUG: [worker-~diagnostic~-a594c045-6005-45c4-ad4d-7b8b2338e06e]: BUSY
+[debug] [2020-02-29T18:49:31.046Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:32.050Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:49:32.050Z] DEBUG: [worker-~diagnostic~-a594c045-6005-45c4-ad4d-7b8b2338e06e]: FINISHING
+[debug] [2020-02-29T18:49:32.088Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:32.089Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:49:32.089Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:32.090Z] DEBUG: [worker-~diagnostic~-5a396350-55fe-4baa-96f0-0af7dcb0c602]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13268.sock
+[debug] [2020-02-29T18:49:32.090Z] DEBUG: [worker-~diagnostic~-5a396350-55fe-4baa-96f0-0af7dcb0c602]: BUSY
+[debug] [2020-02-29T18:49:33.539Z] DEBUG: [runtime-status] [13259] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:33.553Z] DEBUG: [runtime-status] [13259] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:33.596Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:33.664Z] DEBUG: [worker-~diagnostic~-a594c045-6005-45c4-ad4d-7b8b2338e06e]: exited
+[debug] [2020-02-29T18:49:33.664Z] DEBUG: [worker-~diagnostic~-a594c045-6005-45c4-ad4d-7b8b2338e06e]: FINISHED
+[debug] [2020-02-29T18:49:35.639Z] DEBUG: [runtime-status] [13268] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:35.660Z] DEBUG: [runtime-status] [13268] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:35.677Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:35.724Z] DEBUG: [worker-~diagnostic~-5a396350-55fe-4baa-96f0-0af7dcb0c602]: exited
+[debug] [2020-02-29T18:49:35.725Z] DEBUG: [worker-~diagnostic~-5a396350-55fe-4baa-96f0-0af7dcb0c602]: FINISHED
+[debug] [2020-02-29T18:49:40.484Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:41.488Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:49:41.508Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:41.509Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:49:41.509Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:41.510Z] DEBUG: [worker-~diagnostic~-8c59f5d0-b68a-4516-b602-21d871a42281]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13269.sock
+[debug] [2020-02-29T18:49:41.510Z] DEBUG: [worker-~diagnostic~-8c59f5d0-b68a-4516-b602-21d871a42281]: BUSY
+[debug] [2020-02-29T18:49:44.082Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:44.182Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:45.184Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:49:45.185Z] DEBUG: [worker-~diagnostic~-8c59f5d0-b68a-4516-b602-21d871a42281]: FINISHING
+[debug] [2020-02-29T18:49:45.210Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:45.211Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:49:45.212Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:45.212Z] DEBUG: [worker-~diagnostic~-e64e8088-d632-4d43-9bc4-9a299cda8397]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13278.sock
+[debug] [2020-02-29T18:49:45.213Z] DEBUG: [worker-~diagnostic~-e64e8088-d632-4d43-9bc4-9a299cda8397]: BUSY
+[debug] [2020-02-29T18:49:45.256Z] DEBUG: [runtime-status] [13269] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:45.309Z] DEBUG: [runtime-status] [13269] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:45.330Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:45.379Z] DEBUG: [worker-~diagnostic~-8c59f5d0-b68a-4516-b602-21d871a42281]: exited
+[debug] [2020-02-29T18:49:45.379Z] DEBUG: [worker-~diagnostic~-8c59f5d0-b68a-4516-b602-21d871a42281]: FINISHED
+[debug] [2020-02-29T18:49:49.689Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:50.521Z] DEBUG: [runtime-status] [13278] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:50.534Z] DEBUG: [runtime-status] [13278] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:50.614Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:50.691Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:49:50.691Z] DEBUG: [worker-~diagnostic~-e64e8088-d632-4d43-9bc4-9a299cda8397]: FINISHING
+[debug] [2020-02-29T18:49:50.692Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-29T18:49:50.743Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:50.744Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:49:50.744Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:50.745Z] DEBUG: [worker-~diagnostic~-914b07b7-c354-4ec9-99d5-7ea90894d5f2]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13288.sock
+[debug] [2020-02-29T18:49:50.745Z] DEBUG: [worker-~diagnostic~-914b07b7-c354-4ec9-99d5-7ea90894d5f2]: BUSY
+[debug] [2020-02-29T18:49:50.750Z] DEBUG: [worker-~diagnostic~-e64e8088-d632-4d43-9bc4-9a299cda8397]: exited
+[debug] [2020-02-29T18:49:50.751Z] DEBUG: [worker-~diagnostic~-e64e8088-d632-4d43-9bc4-9a299cda8397]: FINISHED
+[debug] [2020-02-29T18:49:57.979Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:49:58.355Z] DEBUG: [runtime-status] [13288] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:49:58.384Z] DEBUG: [runtime-status] [13288] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:49:58.422Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:49:58.598Z] DEBUG: [worker-~diagnostic~-914b07b7-c354-4ec9-99d5-7ea90894d5f2]: exited
+[debug] [2020-02-29T18:49:58.598Z] DEBUG: [worker-~diagnostic~-914b07b7-c354-4ec9-99d5-7ea90894d5f2]: FINISHED
+[debug] [2020-02-29T18:49:58.981Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:49:59.007Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:49:59.008Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:49:59.008Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:49:59.009Z] DEBUG: [worker-~diagnostic~-3ee5c936-9e18-4bda-80c0-23057c14ea8f]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13298.sock
+[debug] [2020-02-29T18:49:59.009Z] DEBUG: [worker-~diagnostic~-3ee5c936-9e18-4bda-80c0-23057c14ea8f]: BUSY
+[debug] [2020-02-29T18:50:00.795Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:01.797Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:50:01.798Z] DEBUG: [worker-~diagnostic~-3ee5c936-9e18-4bda-80c0-23057c14ea8f]: FINISHING
+[debug] [2020-02-29T18:50:01.822Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:01.823Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:50:01.823Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:01.826Z] DEBUG: [worker-~diagnostic~-7efc7463-b2b4-467c-9b7f-c5a24b84f317]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13303.sock
+[debug] [2020-02-29T18:50:01.827Z] DEBUG: [worker-~diagnostic~-7efc7463-b2b4-467c-9b7f-c5a24b84f317]: BUSY
+[debug] [2020-02-29T18:50:02.297Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:03.302Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:50:03.310Z] DEBUG: [worker-~diagnostic~-7efc7463-b2b4-467c-9b7f-c5a24b84f317]: FINISHING
+[debug] [2020-02-29T18:50:03.341Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:03.342Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:50:03.342Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:03.343Z] DEBUG: [worker-~diagnostic~-bef28e8c-8150-4c79-9ad2-51b045b69d8c]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13308.sock
+[debug] [2020-02-29T18:50:03.343Z] DEBUG: [worker-~diagnostic~-bef28e8c-8150-4c79-9ad2-51b045b69d8c]: BUSY
+[debug] [2020-02-29T18:50:05.076Z] DEBUG: [runtime-status] [13298] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:05.091Z] DEBUG: [runtime-status] [13298] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:05.101Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:05.246Z] DEBUG: [worker-~diagnostic~-3ee5c936-9e18-4bda-80c0-23057c14ea8f]: exited
+[debug] [2020-02-29T18:50:05.247Z] DEBUG: [worker-~diagnostic~-3ee5c936-9e18-4bda-80c0-23057c14ea8f]: FINISHED
+[debug] [2020-02-29T18:50:07.193Z] DEBUG: [runtime-status] [13303] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:07.229Z] DEBUG: [runtime-status] [13303] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:07.282Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:07.577Z] DEBUG: [worker-~diagnostic~-7efc7463-b2b4-467c-9b7f-c5a24b84f317]: exited
+[debug] [2020-02-29T18:50:07.578Z] DEBUG: [worker-~diagnostic~-7efc7463-b2b4-467c-9b7f-c5a24b84f317]: FINISHED
+[debug] [2020-02-29T18:50:07.580Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:08.583Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:50:08.583Z] DEBUG: [worker-~diagnostic~-bef28e8c-8150-4c79-9ad2-51b045b69d8c]: FINISHING
+[debug] [2020-02-29T18:50:08.584Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 1
+[debug] [2020-02-29T18:50:08.614Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:08.615Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:50:08.616Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:08.616Z] DEBUG: [worker-~diagnostic~-5a147204-5121-49d5-ace3-409c3a3dcf25]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13315.sock
+[debug] [2020-02-29T18:50:08.617Z] DEBUG: [worker-~diagnostic~-5a147204-5121-49d5-ace3-409c3a3dcf25]: BUSY
+[debug] [2020-02-29T18:50:09.875Z] DEBUG: [runtime-status] [13308] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:09.934Z] DEBUG: [runtime-status] [13308] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:10.224Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:10.388Z] DEBUG: [worker-~diagnostic~-bef28e8c-8150-4c79-9ad2-51b045b69d8c]: exited
+[debug] [2020-02-29T18:50:10.389Z] DEBUG: [worker-~diagnostic~-bef28e8c-8150-4c79-9ad2-51b045b69d8c]: FINISHED
+[debug] [2020-02-29T18:50:15.548Z] DEBUG: [runtime-status] [13315] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:15.641Z] DEBUG: [runtime-status] [13315] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:15.650Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:15.738Z] DEBUG: [worker-~diagnostic~-5a147204-5121-49d5-ace3-409c3a3dcf25]: exited
+[debug] [2020-02-29T18:50:15.739Z] DEBUG: [worker-~diagnostic~-5a147204-5121-49d5-ace3-409c3a3dcf25]: FINISHED
+[debug] [2020-02-29T18:50:16.736Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:16.787Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:17.793Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:50:17.820Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:17.822Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:50:17.822Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:17.823Z] DEBUG: [worker-~diagnostic~-2b3ef228-aa31-4f24-b9aa-bb1d0eeae165]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13319.sock
+[debug] [2020-02-29T18:50:17.823Z] DEBUG: [worker-~diagnostic~-2b3ef228-aa31-4f24-b9aa-bb1d0eeae165]: BUSY
+[debug] [2020-02-29T18:50:21.295Z] DEBUG: [runtime-status] [13319] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:21.304Z] DEBUG: [runtime-status] [13319] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:21.314Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:21.376Z] DEBUG: [worker-~diagnostic~-2b3ef228-aa31-4f24-b9aa-bb1d0eeae165]: exited
+[debug] [2020-02-29T18:50:21.377Z] DEBUG: [worker-~diagnostic~-2b3ef228-aa31-4f24-b9aa-bb1d0eeae165]: FINISHED
+[debug] [2020-02-29T18:50:24.693Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:25.699Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:50:25.724Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:25.725Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:50:25.725Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:25.725Z] DEBUG: [worker-~diagnostic~-350209f0-f517-46a8-9760-b77f3bf775f6]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13328.sock
+[debug] [2020-02-29T18:50:25.726Z] DEBUG: [worker-~diagnostic~-350209f0-f517-46a8-9760-b77f3bf775f6]: BUSY
+[debug] [2020-02-29T18:50:26.689Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:27.693Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:50:27.694Z] DEBUG: [worker-~diagnostic~-350209f0-f517-46a8-9760-b77f3bf775f6]: FINISHING
+[debug] [2020-02-29T18:50:27.723Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:27.725Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:50:27.725Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:27.726Z] DEBUG: [worker-~diagnostic~-9ca98239-c2a4-4ac3-a6d9-3377fbb48b57]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13337.sock
+[debug] [2020-02-29T18:50:27.726Z] DEBUG: [worker-~diagnostic~-9ca98239-c2a4-4ac3-a6d9-3377fbb48b57]: BUSY
+[debug] [2020-02-29T18:50:29.313Z] DEBUG: [runtime-status] [13328] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:29.324Z] DEBUG: [runtime-status] [13328] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:29.334Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:29.408Z] DEBUG: [worker-~diagnostic~-350209f0-f517-46a8-9760-b77f3bf775f6]: exited
+[debug] [2020-02-29T18:50:29.409Z] DEBUG: [worker-~diagnostic~-350209f0-f517-46a8-9760-b77f3bf775f6]: FINISHED
+[debug] [2020-02-29T18:50:30.060Z] DEBUG: [runtime-status] [13337] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:30.069Z] DEBUG: [runtime-status] [13337] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:30.087Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:30.145Z] DEBUG: [worker-~diagnostic~-9ca98239-c2a4-4ac3-a6d9-3377fbb48b57]: exited
+[debug] [2020-02-29T18:50:30.146Z] DEBUG: [worker-~diagnostic~-9ca98239-c2a4-4ac3-a6d9-3377fbb48b57]: FINISHED
+[debug] [2020-02-29T18:50:40.952Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:41.957Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:50:42.026Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:42.027Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:50:42.036Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:42.038Z] DEBUG: [worker-~diagnostic~-24999450-94a0-4fa8-a6dd-964dcd0a98ba]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13347.sock
+[debug] [2020-02-29T18:50:42.038Z] DEBUG: [worker-~diagnostic~-24999450-94a0-4fa8-a6dd-964dcd0a98ba]: BUSY
+[debug] [2020-02-29T18:50:42.226Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:42.323Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:43.326Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:50:43.327Z] DEBUG: [worker-~diagnostic~-24999450-94a0-4fa8-a6dd-964dcd0a98ba]: FINISHING
+[debug] [2020-02-29T18:50:43.353Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:43.354Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:50:43.354Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:43.355Z] DEBUG: [worker-~diagnostic~-107b3ecd-a383-4349-95a6-968d89a52a0d]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13356.sock
+[debug] [2020-02-29T18:50:43.355Z] DEBUG: [worker-~diagnostic~-107b3ecd-a383-4349-95a6-968d89a52a0d]: BUSY
+[debug] [2020-02-29T18:50:45.639Z] DEBUG: [runtime-status] [13347] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:45.665Z] DEBUG: [runtime-status] [13347] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:45.683Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:45.729Z] DEBUG: [worker-~diagnostic~-24999450-94a0-4fa8-a6dd-964dcd0a98ba]: exited
+[debug] [2020-02-29T18:50:45.729Z] DEBUG: [worker-~diagnostic~-24999450-94a0-4fa8-a6dd-964dcd0a98ba]: FINISHED
+[debug] [2020-02-29T18:50:46.017Z] DEBUG: [runtime-status] [13356] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:46.037Z] DEBUG: [runtime-status] [13356] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:46.077Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:46.138Z] DEBUG: [worker-~diagnostic~-107b3ecd-a383-4349-95a6-968d89a52a0d]: exited
+[debug] [2020-02-29T18:50:46.138Z] DEBUG: [worker-~diagnostic~-107b3ecd-a383-4349-95a6-968d89a52a0d]: FINISHED
+[debug] [2020-02-29T18:50:52.067Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:52.176Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:53.178Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:50:53.212Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:53.213Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:50:53.213Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:53.214Z] DEBUG: [worker-~diagnostic~-bbc803ba-5eb2-4e0c-9be0-04757276b208]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13358.sock
+[debug] [2020-02-29T18:50:53.219Z] DEBUG: [worker-~diagnostic~-bbc803ba-5eb2-4e0c-9be0-04757276b208]: BUSY
+[debug] [2020-02-29T18:50:53.463Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:50:54.477Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:50:54.481Z] DEBUG: [worker-~diagnostic~-bbc803ba-5eb2-4e0c-9be0-04757276b208]: FINISHING
+[debug] [2020-02-29T18:50:54.568Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:50:54.568Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:50:54.569Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:50:54.570Z] DEBUG: [worker-~diagnostic~-5c4c7c54-046f-4842-bc22-78f08e4bebe8]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13367.sock
+[debug] [2020-02-29T18:50:54.571Z] DEBUG: [worker-~diagnostic~-5c4c7c54-046f-4842-bc22-78f08e4bebe8]: BUSY
+[debug] [2020-02-29T18:50:57.398Z] DEBUG: [runtime-status] [13358] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:57.413Z] DEBUG: [runtime-status] [13358] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:57.436Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:57.496Z] DEBUG: [worker-~diagnostic~-bbc803ba-5eb2-4e0c-9be0-04757276b208]: exited
+[debug] [2020-02-29T18:50:57.497Z] DEBUG: [worker-~diagnostic~-bbc803ba-5eb2-4e0c-9be0-04757276b208]: FINISHED
+[debug] [2020-02-29T18:50:57.981Z] DEBUG: [runtime-status] [13367] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:50:57.995Z] DEBUG: [runtime-status] [13367] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:50:58.006Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:50:58.051Z] DEBUG: [worker-~diagnostic~-5c4c7c54-046f-4842-bc22-78f08e4bebe8]: exited
+[debug] [2020-02-29T18:50:58.051Z] DEBUG: [worker-~diagnostic~-5c4c7c54-046f-4842-bc22-78f08e4bebe8]: FINISHED
+[debug] [2020-02-29T18:51:04.621Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:04.721Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:05.726Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:51:05.762Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:05.763Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:51:05.763Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:05.764Z] DEBUG: [worker-~diagnostic~-8130aa35-60ac-4740-b7dc-c14cb943d51b]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13369.sock
+[debug] [2020-02-29T18:51:05.764Z] DEBUG: [worker-~diagnostic~-8130aa35-60ac-4740-b7dc-c14cb943d51b]: BUSY
+[debug] [2020-02-29T18:51:06.243Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:06.345Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:07.347Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:51:07.347Z] DEBUG: [worker-~diagnostic~-8130aa35-60ac-4740-b7dc-c14cb943d51b]: FINISHING
+[debug] [2020-02-29T18:51:07.379Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:07.380Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:51:07.380Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:07.381Z] DEBUG: [worker-~diagnostic~-ed89b96e-e1d5-47d5-a7a2-5125fcd580eb]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13378.sock
+[debug] [2020-02-29T18:51:07.381Z] DEBUG: [worker-~diagnostic~-ed89b96e-e1d5-47d5-a7a2-5125fcd580eb]: BUSY
+[debug] [2020-02-29T18:51:10.405Z] DEBUG: [runtime-status] [13369] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:10.429Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:10.454Z] DEBUG: [runtime-status] [13369] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:10.518Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:10.565Z] DEBUG: [worker-~diagnostic~-8130aa35-60ac-4740-b7dc-c14cb943d51b]: exited
+[debug] [2020-02-29T18:51:10.568Z] DEBUG: [worker-~diagnostic~-8130aa35-60ac-4740-b7dc-c14cb943d51b]: FINISHED
+[debug] [2020-02-29T18:51:11.435Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:51:11.436Z] DEBUG: [worker-~diagnostic~-ed89b96e-e1d5-47d5-a7a2-5125fcd580eb]: FINISHING
+[debug] [2020-02-29T18:51:11.436Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-29T18:51:11.495Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:11.495Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:51:11.496Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:11.496Z] DEBUG: [worker-~diagnostic~-134285f5-d1bb-4346-8e84-e3f515f9b852]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13379.sock
+[debug] [2020-02-29T18:51:11.497Z] DEBUG: [worker-~diagnostic~-134285f5-d1bb-4346-8e84-e3f515f9b852]: BUSY
+[debug] [2020-02-29T18:51:12.295Z] DEBUG: [runtime-status] [13378] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:12.308Z] DEBUG: [runtime-status] [13378] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:12.328Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:12.392Z] DEBUG: [worker-~diagnostic~-ed89b96e-e1d5-47d5-a7a2-5125fcd580eb]: exited
+[debug] [2020-02-29T18:51:12.392Z] DEBUG: [worker-~diagnostic~-ed89b96e-e1d5-47d5-a7a2-5125fcd580eb]: FINISHED
+[debug] [2020-02-29T18:51:15.411Z] DEBUG: [runtime-status] [13379] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:15.427Z] DEBUG: [runtime-status] [13379] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:15.500Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:15.606Z] DEBUG: [worker-~diagnostic~-134285f5-d1bb-4346-8e84-e3f515f9b852]: exited
+[debug] [2020-02-29T18:51:15.607Z] DEBUG: [worker-~diagnostic~-134285f5-d1bb-4346-8e84-e3f515f9b852]: FINISHED
+[debug] [2020-02-29T18:51:17.416Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:18.421Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:51:18.458Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:18.459Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:51:18.459Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:18.460Z] DEBUG: [worker-~diagnostic~-afbfcd85-0603-4a7f-aa6b-84985e8b6b3b]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13388.sock
+[debug] [2020-02-29T18:51:18.460Z] DEBUG: [worker-~diagnostic~-afbfcd85-0603-4a7f-aa6b-84985e8b6b3b]: BUSY
+[debug] [2020-02-29T18:51:19.075Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:20.094Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:51:20.095Z] DEBUG: [worker-~diagnostic~-afbfcd85-0603-4a7f-aa6b-84985e8b6b3b]: FINISHING
+[debug] [2020-02-29T18:51:20.130Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:20.134Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:51:20.134Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:20.135Z] DEBUG: [worker-~diagnostic~-825deaf4-3e9a-448a-9e1f-e0c121dfb1fb]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13392.sock
+[debug] [2020-02-29T18:51:20.135Z] DEBUG: [worker-~diagnostic~-825deaf4-3e9a-448a-9e1f-e0c121dfb1fb]: BUSY
+[debug] [2020-02-29T18:51:20.299Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:21.304Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:51:21.305Z] DEBUG: [worker-~diagnostic~-825deaf4-3e9a-448a-9e1f-e0c121dfb1fb]: FINISHING
+[debug] [2020-02-29T18:51:21.361Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:21.362Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:51:21.362Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:21.363Z] DEBUG: [worker-~diagnostic~-ef404728-f6e0-4d4d-a5cf-91a699c0b20b]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13398.sock
+[debug] [2020-02-29T18:51:21.365Z] DEBUG: [worker-~diagnostic~-ef404728-f6e0-4d4d-a5cf-91a699c0b20b]: BUSY
+[debug] [2020-02-29T18:51:23.267Z] DEBUG: [runtime-status] [13388] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:23.294Z] DEBUG: [runtime-status] [13388] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:23.341Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:23.423Z] DEBUG: [worker-~diagnostic~-afbfcd85-0603-4a7f-aa6b-84985e8b6b3b]: exited
+[debug] [2020-02-29T18:51:23.423Z] DEBUG: [worker-~diagnostic~-afbfcd85-0603-4a7f-aa6b-84985e8b6b3b]: FINISHED
+[debug] [2020-02-29T18:51:25.577Z] DEBUG: [runtime-status] [13392] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:25.617Z] DEBUG: [runtime-status] [13392] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:25.906Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:26.101Z] DEBUG: [worker-~diagnostic~-825deaf4-3e9a-448a-9e1f-e0c121dfb1fb]: exited
+[debug] [2020-02-29T18:51:26.102Z] DEBUG: [worker-~diagnostic~-825deaf4-3e9a-448a-9e1f-e0c121dfb1fb]: FINISHED
+[debug] [2020-02-29T18:51:26.947Z] DEBUG: [runtime-status] [13398] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:26.961Z] DEBUG: [runtime-status] [13398] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:27.008Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:27.071Z] DEBUG: [worker-~diagnostic~-ef404728-f6e0-4d4d-a5cf-91a699c0b20b]: exited
+[debug] [2020-02-29T18:51:27.072Z] DEBUG: [worker-~diagnostic~-ef404728-f6e0-4d4d-a5cf-91a699c0b20b]: FINISHED
+[debug] [2020-02-29T18:51:35.873Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:36.880Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T18:51:36.921Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:36.922Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:51:36.922Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:36.924Z] DEBUG: [worker-~diagnostic~-32ba6475-a592-41c5-ac3f-a3df21850fc3]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13410.sock
+[debug] [2020-02-29T18:51:36.925Z] DEBUG: [worker-~diagnostic~-32ba6475-a592-41c5-ac3f-a3df21850fc3]: BUSY
+[debug] [2020-02-29T18:51:39.303Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:40.305Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:51:40.306Z] DEBUG: [worker-~diagnostic~-32ba6475-a592-41c5-ac3f-a3df21850fc3]: FINISHING
+[debug] [2020-02-29T18:51:40.335Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:40.336Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:51:40.337Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:40.337Z] DEBUG: [worker-~diagnostic~-5699141b-0216-43d0-ab11-7d7a2fdfa7dd]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13420.sock
+[debug] [2020-02-29T18:51:40.338Z] DEBUG: [worker-~diagnostic~-5699141b-0216-43d0-ab11-7d7a2fdfa7dd]: BUSY
+[debug] [2020-02-29T18:51:40.913Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:41.371Z] DEBUG: [runtime-status] [13410] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:41.395Z] DEBUG: [runtime-status] [13410] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:41.482Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:41.587Z] DEBUG: [worker-~diagnostic~-32ba6475-a592-41c5-ac3f-a3df21850fc3]: exited
+[debug] [2020-02-29T18:51:41.587Z] DEBUG: [worker-~diagnostic~-32ba6475-a592-41c5-ac3f-a3df21850fc3]: FINISHED
+[debug] [2020-02-29T18:51:41.849Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:41.957Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:51:42.962Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:51:42.963Z] DEBUG: [worker-~diagnostic~-5699141b-0216-43d0-ab11-7d7a2fdfa7dd]: FINISHING
+[debug] [2020-02-29T18:51:42.963Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-29T18:51:42.991Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:51:42.992Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:51:42.992Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:51:42.993Z] DEBUG: [worker-~diagnostic~-c27efbe7-1bc9-4778-ad53-22fa958c84cf]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13421.sock
+[debug] [2020-02-29T18:51:42.993Z] DEBUG: [worker-~diagnostic~-c27efbe7-1bc9-4778-ad53-22fa958c84cf]: BUSY
+[debug] [2020-02-29T18:51:45.463Z] DEBUG: [runtime-status] [13420] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:45.478Z] DEBUG: [runtime-status] [13420] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:45.499Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:45.584Z] DEBUG: [worker-~diagnostic~-5699141b-0216-43d0-ab11-7d7a2fdfa7dd]: exited
+[debug] [2020-02-29T18:51:45.584Z] DEBUG: [worker-~diagnostic~-5699141b-0216-43d0-ab11-7d7a2fdfa7dd]: FINISHED
+[debug] [2020-02-29T18:51:46.389Z] DEBUG: [runtime-status] [13421] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:51:46.486Z] DEBUG: [runtime-status] [13421] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:51:46.539Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:51:46.692Z] DEBUG: [worker-~diagnostic~-c27efbe7-1bc9-4778-ad53-22fa958c84cf]: exited
+[debug] [2020-02-29T18:51:46.692Z] DEBUG: [worker-~diagnostic~-c27efbe7-1bc9-4778-ad53-22fa958c84cf]: FINISHED
+[debug] [2020-02-29T18:53:46.476Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:53:47.484Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:53:47.526Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:53:47.527Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:53:47.527Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:53:47.528Z] DEBUG: [worker-~diagnostic~-240972f1-304b-4ed2-bc57-576778be0f3c]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13437.sock
+[debug] [2020-02-29T18:53:47.528Z] DEBUG: [worker-~diagnostic~-240972f1-304b-4ed2-bc57-576778be0f3c]: BUSY
+[debug] [2020-02-29T18:53:52.114Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:53:52.213Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:53:53.219Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:53:53.220Z] DEBUG: [worker-~diagnostic~-240972f1-304b-4ed2-bc57-576778be0f3c]: FINISHING
+[debug] [2020-02-29T18:53:53.249Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:53:53.249Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:53:53.250Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:53:53.251Z] DEBUG: [worker-~diagnostic~-e1fc7b16-c5b3-4a47-a911-2fe71be5b2e8]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13447.sock
+[debug] [2020-02-29T18:53:53.251Z] DEBUG: [worker-~diagnostic~-e1fc7b16-c5b3-4a47-a911-2fe71be5b2e8]: BUSY
+[debug] [2020-02-29T18:53:53.990Z] DEBUG: [runtime-status] [13437] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:53:54.017Z] DEBUG: [runtime-status] [13437] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:53:54.127Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:53:54.196Z] DEBUG: [worker-~diagnostic~-240972f1-304b-4ed2-bc57-576778be0f3c]: exited
+[debug] [2020-02-29T18:53:54.196Z] DEBUG: [worker-~diagnostic~-240972f1-304b-4ed2-bc57-576778be0f3c]: FINISHED
+[debug] [2020-02-29T18:53:58.374Z] DEBUG: [runtime-status] [13447] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:53:58.529Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:53:58.614Z] DEBUG: [runtime-status] [13447] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:53:58.703Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:53:58.865Z] DEBUG: [worker-~diagnostic~-e1fc7b16-c5b3-4a47-a911-2fe71be5b2e8]: exited
+[debug] [2020-02-29T18:53:58.865Z] DEBUG: [worker-~diagnostic~-e1fc7b16-c5b3-4a47-a911-2fe71be5b2e8]: FINISHED
+[debug] [2020-02-29T18:53:59.539Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:53:59.579Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:53:59.580Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:53:59.580Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:53:59.581Z] DEBUG: [worker-~diagnostic~-05e63ab5-0d6e-4ff9-b746-d03e6359c14c]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13457.sock
+[debug] [2020-02-29T18:53:59.581Z] DEBUG: [worker-~diagnostic~-05e63ab5-0d6e-4ff9-b746-d03e6359c14c]: BUSY
+[debug] [2020-02-29T18:54:03.222Z] DEBUG: [runtime-status] [13457] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:54:03.257Z] DEBUG: [runtime-status] [13457] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:54:03.284Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:54:03.419Z] DEBUG: [worker-~diagnostic~-05e63ab5-0d6e-4ff9-b746-d03e6359c14c]: exited
+[debug] [2020-02-29T18:54:03.420Z] DEBUG: [worker-~diagnostic~-05e63ab5-0d6e-4ff9-b746-d03e6359c14c]: FINISHED
+[debug] [2020-02-29T18:57:21.417Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:22.421Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:57:22.454Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:22.455Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:57:22.455Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:22.456Z] DEBUG: [worker-~diagnostic~-810db73c-a894-4b8b-9c6e-82f87599f408]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13472.sock
+[debug] [2020-02-29T18:57:22.456Z] DEBUG: [worker-~diagnostic~-810db73c-a894-4b8b-9c6e-82f87599f408]: BUSY
+[debug] [2020-02-29T18:57:25.730Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:26.747Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:57:26.748Z] DEBUG: [worker-~diagnostic~-810db73c-a894-4b8b-9c6e-82f87599f408]: FINISHING
+[debug] [2020-02-29T18:57:26.790Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:26.791Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:57:26.791Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:26.792Z] DEBUG: [worker-~diagnostic~-5bb9b63b-4fd8-40cc-b6b4-5a57ca059c12]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13481.sock
+[debug] [2020-02-29T18:57:26.792Z] DEBUG: [worker-~diagnostic~-5bb9b63b-4fd8-40cc-b6b4-5a57ca059c12]: BUSY
+[debug] [2020-02-29T18:57:28.399Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:28.500Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:28.581Z] DEBUG: [runtime-status] [13472] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:28.597Z] DEBUG: [runtime-status] [13472] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:28.627Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:28.754Z] DEBUG: [worker-~diagnostic~-810db73c-a894-4b8b-9c6e-82f87599f408]: exited
+[debug] [2020-02-29T18:57:28.755Z] DEBUG: [worker-~diagnostic~-810db73c-a894-4b8b-9c6e-82f87599f408]: FINISHED
+[debug] [2020-02-29T18:57:29.501Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:57:29.502Z] DEBUG: [worker-~diagnostic~-5bb9b63b-4fd8-40cc-b6b4-5a57ca059c12]: FINISHING
+[debug] [2020-02-29T18:57:29.503Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-29T18:57:29.533Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:29.534Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:57:29.534Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:29.535Z] DEBUG: [worker-~diagnostic~-ded7bf87-9536-4757-b7a3-20deeae843ee]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13482.sock
+[debug] [2020-02-29T18:57:29.535Z] DEBUG: [worker-~diagnostic~-ded7bf87-9536-4757-b7a3-20deeae843ee]: BUSY
+[debug] [2020-02-29T18:57:30.687Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:30.789Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:31.794Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:57:31.794Z] DEBUG: [worker-~diagnostic~-ded7bf87-9536-4757-b7a3-20deeae843ee]: FINISHING
+[debug] [2020-02-29T18:57:31.820Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:31.821Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:57:31.821Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:31.822Z] DEBUG: [worker-~diagnostic~-9fe9cfd7-af64-499b-92bc-8fc910bd1bd5]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13491.sock
+[debug] [2020-02-29T18:57:31.822Z] DEBUG: [worker-~diagnostic~-9fe9cfd7-af64-499b-92bc-8fc910bd1bd5]: BUSY
+[debug] [2020-02-29T18:57:32.508Z] DEBUG: [runtime-status] [13481] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:32.520Z] DEBUG: [runtime-status] [13481] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:32.569Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:32.619Z] DEBUG: [worker-~diagnostic~-5bb9b63b-4fd8-40cc-b6b4-5a57ca059c12]: exited
+[debug] [2020-02-29T18:57:32.620Z] DEBUG: [worker-~diagnostic~-5bb9b63b-4fd8-40cc-b6b4-5a57ca059c12]: FINISHED
+[debug] [2020-02-29T18:57:34.208Z] DEBUG: [runtime-status] [13482] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:34.230Z] DEBUG: [runtime-status] [13482] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:34.251Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:34.316Z] DEBUG: [worker-~diagnostic~-ded7bf87-9536-4757-b7a3-20deeae843ee]: exited
+[debug] [2020-02-29T18:57:34.317Z] DEBUG: [worker-~diagnostic~-ded7bf87-9536-4757-b7a3-20deeae843ee]: FINISHED
+[debug] [2020-02-29T18:57:36.342Z] DEBUG: [runtime-status] [13491] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:36.383Z] DEBUG: [runtime-status] [13491] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:36.445Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:36.514Z] DEBUG: [worker-~diagnostic~-9fe9cfd7-af64-499b-92bc-8fc910bd1bd5]: exited
+[debug] [2020-02-29T18:57:36.515Z] DEBUG: [worker-~diagnostic~-9fe9cfd7-af64-499b-92bc-8fc910bd1bd5]: FINISHED
+[debug] [2020-02-29T18:57:38.470Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:38.558Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:39.561Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T18:57:39.582Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:39.583Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:57:39.583Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:39.583Z] DEBUG: [worker-~diagnostic~-c573474d-aece-4967-9417-4670dbdf57d2]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13492.sock
+[debug] [2020-02-29T18:57:39.584Z] DEBUG: [worker-~diagnostic~-c573474d-aece-4967-9417-4670dbdf57d2]: BUSY
+[debug] [2020-02-29T18:57:43.167Z] DEBUG: [runtime-status] [13492] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:43.183Z] DEBUG: [runtime-status] [13492] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:43.206Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:43.289Z] DEBUG: [worker-~diagnostic~-c573474d-aece-4967-9417-4670dbdf57d2]: exited
+[debug] [2020-02-29T18:57:43.290Z] DEBUG: [worker-~diagnostic~-c573474d-aece-4967-9417-4670dbdf57d2]: FINISHED
+[debug] [2020-02-29T18:57:44.787Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:45.794Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:57:45.822Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:45.823Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:57:45.823Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:45.824Z] DEBUG: [worker-~diagnostic~-bc1cbbb8-f649-4123-b9f8-936d48ce0216]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13501.sock
+[debug] [2020-02-29T18:57:45.824Z] DEBUG: [worker-~diagnostic~-bc1cbbb8-f649-4123-b9f8-936d48ce0216]: BUSY
+[debug] [2020-02-29T18:57:48.882Z] DEBUG: [runtime-status] [13501] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:48.928Z] DEBUG: [runtime-status] [13501] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:48.994Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:49.058Z] DEBUG: [worker-~diagnostic~-bc1cbbb8-f649-4123-b9f8-936d48ce0216]: exited
+[debug] [2020-02-29T18:57:49.059Z] DEBUG: [worker-~diagnostic~-bc1cbbb8-f649-4123-b9f8-936d48ce0216]: FINISHED
+[debug] [2020-02-29T18:57:50.364Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:50.460Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:51.467Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:57:51.505Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:51.509Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:57:51.509Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:51.510Z] DEBUG: [worker-~diagnostic~-5c51d1c9-eb80-4752-b83b-ca13931b323b]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13510.sock
+[debug] [2020-02-29T18:57:51.510Z] DEBUG: [worker-~diagnostic~-5c51d1c9-eb80-4752-b83b-ca13931b323b]: BUSY
+[debug] [2020-02-29T18:57:55.205Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:56.076Z] DEBUG: [runtime-status] [13510] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:57:56.099Z] DEBUG: [runtime-status] [13510] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:57:56.119Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:57:56.183Z] DEBUG: [worker-~diagnostic~-5c51d1c9-eb80-4752-b83b-ca13931b323b]: exited
+[debug] [2020-02-29T18:57:56.184Z] DEBUG: [worker-~diagnostic~-5c51d1c9-eb80-4752-b83b-ca13931b323b]: FINISHED
+[debug] [2020-02-29T18:57:56.211Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:57:56.238Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:56.241Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:57:56.241Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:56.242Z] DEBUG: [worker-~diagnostic~-f77fc4b9-5380-4bb3-869a-31e17c3ca56f]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13519.sock
+[debug] [2020-02-29T18:57:56.242Z] DEBUG: [worker-~diagnostic~-f77fc4b9-5380-4bb3-869a-31e17c3ca56f]: BUSY
+[debug] [2020-02-29T18:57:56.579Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:56.651Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:57:57.654Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:57:57.654Z] DEBUG: [worker-~diagnostic~-f77fc4b9-5380-4bb3-869a-31e17c3ca56f]: FINISHING
+[debug] [2020-02-29T18:57:57.718Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:57:57.719Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:57:57.719Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:57:57.720Z] DEBUG: [worker-~diagnostic~-0c4e7d7c-4764-4b0e-a8d2-33dccbf7a503]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13520.sock
+[debug] [2020-02-29T18:57:57.720Z] DEBUG: [worker-~diagnostic~-0c4e7d7c-4764-4b0e-a8d2-33dccbf7a503]: BUSY
+[debug] [2020-02-29T18:57:59.548Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:00.550Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:00.551Z] DEBUG: [worker-~diagnostic~-0c4e7d7c-4764-4b0e-a8d2-33dccbf7a503]: FINISHING
+[debug] [2020-02-29T18:58:00.576Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:00.576Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:58:00.577Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:00.577Z] DEBUG: [worker-~diagnostic~-93781f95-f43b-4f4d-8e00-3fca6010f5f8]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13524.sock
+[debug] [2020-02-29T18:58:00.578Z] DEBUG: [worker-~diagnostic~-93781f95-f43b-4f4d-8e00-3fca6010f5f8]: BUSY
+[debug] [2020-02-29T18:58:01.699Z] DEBUG: [runtime-status] [13519] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:01.753Z] DEBUG: [runtime-status] [13519] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:01.800Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:01.890Z] DEBUG: [worker-~diagnostic~-f77fc4b9-5380-4bb3-869a-31e17c3ca56f]: exited
+[debug] [2020-02-29T18:58:01.891Z] DEBUG: [worker-~diagnostic~-f77fc4b9-5380-4bb3-869a-31e17c3ca56f]: FINISHED
+[debug] [2020-02-29T18:58:02.708Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:03.443Z] DEBUG: [runtime-status] [13520] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:03.534Z] DEBUG: [runtime-status] [13520] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:03.633Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:03.712Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:03.713Z] DEBUG: [worker-~diagnostic~-93781f95-f43b-4f4d-8e00-3fca6010f5f8]: FINISHING
+[debug] [2020-02-29T18:58:03.713Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 2
+[debug] [2020-02-29T18:58:03.748Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:03.749Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:58:03.750Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:03.753Z] DEBUG: [worker-~diagnostic~-3af88156-030b-4fc2-8f0f-138fa20da55e]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13530.sock
+[debug] [2020-02-29T18:58:03.754Z] DEBUG: [worker-~diagnostic~-3af88156-030b-4fc2-8f0f-138fa20da55e]: BUSY
+[debug] [2020-02-29T18:58:03.758Z] DEBUG: [worker-~diagnostic~-0c4e7d7c-4764-4b0e-a8d2-33dccbf7a503]: exited
+[debug] [2020-02-29T18:58:03.759Z] DEBUG: [worker-~diagnostic~-0c4e7d7c-4764-4b0e-a8d2-33dccbf7a503]: FINISHED
+[debug] [2020-02-29T18:58:05.250Z] DEBUG: [runtime-status] [13524] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:05.274Z] DEBUG: [runtime-status] [13524] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:05.505Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:05.556Z] DEBUG: [worker-~diagnostic~-93781f95-f43b-4f4d-8e00-3fca6010f5f8]: exited
+[debug] [2020-02-29T18:58:05.557Z] DEBUG: [worker-~diagnostic~-93781f95-f43b-4f4d-8e00-3fca6010f5f8]: FINISHED
+[debug] [2020-02-29T18:58:07.203Z] DEBUG: [runtime-status] [13530] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:07.215Z] DEBUG: [runtime-status] [13530] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:07.225Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:07.259Z] DEBUG: [worker-~diagnostic~-3af88156-030b-4fc2-8f0f-138fa20da55e]: exited
+[debug] [2020-02-29T18:58:07.259Z] DEBUG: [worker-~diagnostic~-3af88156-030b-4fc2-8f0f-138fa20da55e]: FINISHED
+[debug] [2020-02-29T18:58:10.555Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:10.643Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:11.646Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T18:58:11.673Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:11.674Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:58:11.674Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:11.675Z] DEBUG: [worker-~diagnostic~-32c74da6-8d95-4d7d-98d2-5b29bd40f18a]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13539.sock
+[debug] [2020-02-29T18:58:11.676Z] DEBUG: [worker-~diagnostic~-32c74da6-8d95-4d7d-98d2-5b29bd40f18a]: BUSY
+[debug] [2020-02-29T18:58:15.044Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:16.045Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:16.046Z] DEBUG: [worker-~diagnostic~-32c74da6-8d95-4d7d-98d2-5b29bd40f18a]: FINISHING
+[debug] [2020-02-29T18:58:16.073Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:16.074Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:58:16.074Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:16.075Z] DEBUG: [worker-~diagnostic~-0f2731c0-3e31-415b-a32e-8f1ed5b95ea0]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13548.sock
+[debug] [2020-02-29T18:58:16.075Z] DEBUG: [worker-~diagnostic~-0f2731c0-3e31-415b-a32e-8f1ed5b95ea0]: BUSY
+[debug] [2020-02-29T18:58:16.625Z] DEBUG: [runtime-status] [13539] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:16.636Z] DEBUG: [runtime-status] [13539] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:16.648Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:16.715Z] DEBUG: [worker-~diagnostic~-32c74da6-8d95-4d7d-98d2-5b29bd40f18a]: exited
+[debug] [2020-02-29T18:58:16.716Z] DEBUG: [worker-~diagnostic~-32c74da6-8d95-4d7d-98d2-5b29bd40f18a]: FINISHED
+[debug] [2020-02-29T18:58:17.996Z] DEBUG: [runtime-status] [13548] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:18.006Z] DEBUG: [runtime-status] [13548] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:18.017Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:18.057Z] DEBUG: [worker-~diagnostic~-0f2731c0-3e31-415b-a32e-8f1ed5b95ea0]: exited
+[debug] [2020-02-29T18:58:18.057Z] DEBUG: [worker-~diagnostic~-0f2731c0-3e31-415b-a32e-8f1ed5b95ea0]: FINISHED
+[debug] [2020-02-29T18:58:28.579Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:28.668Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:29.675Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T18:58:29.701Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:29.701Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:58:29.702Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:29.702Z] DEBUG: [worker-~diagnostic~-34edef41-cc21-4c6a-9233-8ed4d38cb0c4]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13557.sock
+[debug] [2020-02-29T18:58:29.703Z] DEBUG: [worker-~diagnostic~-34edef41-cc21-4c6a-9233-8ed4d38cb0c4]: BUSY
+[debug] [2020-02-29T18:58:32.892Z] DEBUG: [runtime-status] [13557] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:32.901Z] DEBUG: [runtime-status] [13557] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:32.924Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:32.961Z] DEBUG: [worker-~diagnostic~-34edef41-cc21-4c6a-9233-8ed4d38cb0c4]: exited
+[debug] [2020-02-29T18:58:32.962Z] DEBUG: [worker-~diagnostic~-34edef41-cc21-4c6a-9233-8ed4d38cb0c4]: FINISHED
+[debug] [2020-02-29T18:58:38.860Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:39.870Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T18:58:39.910Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:39.911Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:58:39.911Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:39.912Z] DEBUG: [worker-~diagnostic~-e061a6a1-b667-41aa-bb88-9629173965b6]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13566.sock
+[debug] [2020-02-29T18:58:39.913Z] DEBUG: [worker-~diagnostic~-e061a6a1-b667-41aa-bb88-9629173965b6]: BUSY
+[debug] [2020-02-29T18:58:42.171Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:43.176Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:43.177Z] DEBUG: [worker-~diagnostic~-e061a6a1-b667-41aa-bb88-9629173965b6]: FINISHING
+[debug] [2020-02-29T18:58:43.208Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:43.209Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:58:43.209Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:43.212Z] DEBUG: [worker-~diagnostic~-62b0facd-7c52-4240-9891-027701160fc7]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13575.sock
+[debug] [2020-02-29T18:58:43.213Z] DEBUG: [worker-~diagnostic~-62b0facd-7c52-4240-9891-027701160fc7]: BUSY
+[debug] [2020-02-29T18:58:43.462Z] DEBUG: [runtime-status] [13566] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:43.516Z] DEBUG: [runtime-status] [13566] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:43.822Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:43.900Z] DEBUG: [worker-~diagnostic~-e061a6a1-b667-41aa-bb88-9629173965b6]: exited
+[debug] [2020-02-29T18:58:43.901Z] DEBUG: [worker-~diagnostic~-e061a6a1-b667-41aa-bb88-9629173965b6]: FINISHED
+[debug] [2020-02-29T18:58:46.715Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:47.721Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:47.721Z] DEBUG: [worker-~diagnostic~-62b0facd-7c52-4240-9891-027701160fc7]: FINISHING
+[debug] [2020-02-29T18:58:47.721Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 1
+[debug] [2020-02-29T18:58:47.769Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:47.770Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:58:47.770Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:47.771Z] DEBUG: [worker-~diagnostic~-fbfb9df9-85fd-4100-a41e-d3fad278e8a1]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13584.sock
+[debug] [2020-02-29T18:58:47.772Z] DEBUG: [worker-~diagnostic~-fbfb9df9-85fd-4100-a41e-d3fad278e8a1]: BUSY
+[debug] [2020-02-29T18:58:48.671Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:48.771Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:49.774Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:49.775Z] DEBUG: [worker-~diagnostic~-fbfb9df9-85fd-4100-a41e-d3fad278e8a1]: FINISHING
+[debug] [2020-02-29T18:58:49.819Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:49.820Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:58:49.820Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:49.821Z] DEBUG: [worker-~diagnostic~-09156c37-48ef-4dc0-ab98-a1b8691f895d]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13585.sock
+[debug] [2020-02-29T18:58:49.821Z] DEBUG: [worker-~diagnostic~-09156c37-48ef-4dc0-ab98-a1b8691f895d]: BUSY
+[debug] [2020-02-29T18:58:49.825Z] DEBUG: [runtime-status] [13575] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:49.825Z] DEBUG: [runtime-status] [13575] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:49.957Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:50.088Z] DEBUG: [worker-~diagnostic~-62b0facd-7c52-4240-9891-027701160fc7]: exited
+[debug] [2020-02-29T18:58:50.088Z] DEBUG: [worker-~diagnostic~-62b0facd-7c52-4240-9891-027701160fc7]: FINISHED
+[debug] [2020-02-29T18:58:51.756Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:51.854Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:58:52.858Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:58:52.859Z] DEBUG: [worker-~diagnostic~-09156c37-48ef-4dc0-ab98-a1b8691f895d]: FINISHING
+[debug] [2020-02-29T18:58:52.859Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 2
+[debug] [2020-02-29T18:58:52.890Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:58:52.891Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:58:52.891Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:58:52.894Z] DEBUG: [worker-~diagnostic~-c5098d63-06a2-43db-8288-1dc74bf89869]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13594.sock
+[debug] [2020-02-29T18:58:52.895Z] DEBUG: [worker-~diagnostic~-c5098d63-06a2-43db-8288-1dc74bf89869]: BUSY
+[debug] [2020-02-29T18:58:55.036Z] DEBUG: [runtime-status] [13584] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:55.064Z] DEBUG: [runtime-status] [13584] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:55.173Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:55.381Z] DEBUG: [worker-~diagnostic~-fbfb9df9-85fd-4100-a41e-d3fad278e8a1]: exited
+[debug] [2020-02-29T18:58:55.381Z] DEBUG: [worker-~diagnostic~-fbfb9df9-85fd-4100-a41e-d3fad278e8a1]: FINISHED
+[debug] [2020-02-29T18:58:56.903Z] DEBUG: [runtime-status] [13585] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:56.935Z] DEBUG: [runtime-status] [13585] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:56.999Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:57.051Z] DEBUG: [worker-~diagnostic~-09156c37-48ef-4dc0-ab98-a1b8691f895d]: exited
+[debug] [2020-02-29T18:58:57.051Z] DEBUG: [worker-~diagnostic~-09156c37-48ef-4dc0-ab98-a1b8691f895d]: FINISHED
+[debug] [2020-02-29T18:58:59.613Z] DEBUG: [runtime-status] [13594] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:58:59.682Z] DEBUG: [runtime-status] [13594] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:58:59.715Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:58:59.773Z] DEBUG: [worker-~diagnostic~-c5098d63-06a2-43db-8288-1dc74bf89869]: exited
+[debug] [2020-02-29T18:58:59.773Z] DEBUG: [worker-~diagnostic~-c5098d63-06a2-43db-8288-1dc74bf89869]: FINISHED
+[debug] [2020-02-29T18:59:03.577Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:59:04.585Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T18:59:04.617Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:59:04.618Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T18:59:04.618Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:59:04.619Z] DEBUG: [worker-~diagnostic~-51de49a9-f919-44b6-9985-03a1ea872b25]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13597.sock
+[debug] [2020-02-29T18:59:04.619Z] DEBUG: [worker-~diagnostic~-51de49a9-f919-44b6-9985-03a1ea872b25]: BUSY
+[debug] [2020-02-29T18:59:06.097Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:59:07.102Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:59:07.102Z] DEBUG: [worker-~diagnostic~-51de49a9-f919-44b6-9985-03a1ea872b25]: FINISHING
+[debug] [2020-02-29T18:59:07.130Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:59:07.131Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T18:59:07.131Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:59:07.132Z] DEBUG: [worker-~diagnostic~-0c15afcb-0f11-43a1-b519-17726e780057]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13606.sock
+[debug] [2020-02-29T18:59:07.132Z] DEBUG: [worker-~diagnostic~-0c15afcb-0f11-43a1-b519-17726e780057]: BUSY
+[debug] [2020-02-29T18:59:07.286Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:59:07.392Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T18:59:08.395Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T18:59:08.395Z] DEBUG: [worker-~diagnostic~-0c15afcb-0f11-43a1-b519-17726e780057]: FINISHING
+[debug] [2020-02-29T18:59:08.482Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T18:59:08.502Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T18:59:08.503Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T18:59:08.508Z] DEBUG: [worker-~diagnostic~-ecaebf2e-7606-44cc-8687-d875ebe656f5]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13607.sock
+[debug] [2020-02-29T18:59:08.509Z] DEBUG: [worker-~diagnostic~-ecaebf2e-7606-44cc-8687-d875ebe656f5]: BUSY
+[debug] [2020-02-29T18:59:09.439Z] DEBUG: [runtime-status] [13597] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:59:09.475Z] DEBUG: [runtime-status] [13597] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:59:09.555Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:59:09.629Z] DEBUG: [worker-~diagnostic~-51de49a9-f919-44b6-9985-03a1ea872b25]: exited
+[debug] [2020-02-29T18:59:09.629Z] DEBUG: [worker-~diagnostic~-51de49a9-f919-44b6-9985-03a1ea872b25]: FINISHED
+[debug] [2020-02-29T18:59:12.127Z] DEBUG: [runtime-status] [13606] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:59:12.172Z] DEBUG: [runtime-status] [13606] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:59:12.210Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:59:12.312Z] DEBUG: [worker-~diagnostic~-0c15afcb-0f11-43a1-b519-17726e780057]: exited
+[debug] [2020-02-29T18:59:12.312Z] DEBUG: [worker-~diagnostic~-0c15afcb-0f11-43a1-b519-17726e780057]: FINISHED
+[debug] [2020-02-29T18:59:13.088Z] DEBUG: [runtime-status] [13607] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T18:59:13.107Z] DEBUG: [runtime-status] [13607] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T18:59:13.159Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T18:59:13.236Z] DEBUG: [worker-~diagnostic~-ecaebf2e-7606-44cc-8687-d875ebe656f5]: exited
+[debug] [2020-02-29T18:59:13.237Z] DEBUG: [worker-~diagnostic~-ecaebf2e-7606-44cc-8687-d875ebe656f5]: FINISHED
+[debug] [2020-02-29T19:00:28.756Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:00:29.763Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 0
+[debug] [2020-02-29T19:00:29.809Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:00:29.810Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:00:29.810Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:00:29.811Z] DEBUG: [worker-~diagnostic~-e41a3df4-bc05-46d6-bf3e-d60084018c93]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13629.sock
+[debug] [2020-02-29T19:00:29.811Z] DEBUG: [worker-~diagnostic~-e41a3df4-bc05-46d6-bf3e-d60084018c93]: BUSY
+[debug] [2020-02-29T19:00:32.916Z] DEBUG: [runtime-status] [13629] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:00:32.926Z] DEBUG: [runtime-status] [13629] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:00:32.940Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:00:32.986Z] DEBUG: [worker-~diagnostic~-e41a3df4-bc05-46d6-bf3e-d60084018c93]: exited
+[debug] [2020-02-29T19:00:32.987Z] DEBUG: [worker-~diagnostic~-e41a3df4-bc05-46d6-bf3e-d60084018c93]: FINISHED
+[debug] [2020-02-29T19:00:40.007Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:00:41.032Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T19:00:41.075Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:00:41.076Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:00:41.076Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:00:41.077Z] DEBUG: [worker-~diagnostic~-2fbbc697-bd50-410a-9a31-f54a40b4880c]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13638.sock
+[debug] [2020-02-29T19:00:41.078Z] DEBUG: [worker-~diagnostic~-2fbbc697-bd50-410a-9a31-f54a40b4880c]: BUSY
+[debug] [2020-02-29T19:00:43.747Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:00:44.750Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:00:44.751Z] DEBUG: [worker-~diagnostic~-2fbbc697-bd50-410a-9a31-f54a40b4880c]: FINISHING
+[debug] [2020-02-29T19:00:44.794Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:00:44.795Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T19:00:44.795Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:00:44.797Z] DEBUG: [worker-~diagnostic~-6064fbe0-0385-4ae2-b3ba-a22acb7c3c22]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13647.sock
+[debug] [2020-02-29T19:00:44.798Z] DEBUG: [worker-~diagnostic~-6064fbe0-0385-4ae2-b3ba-a22acb7c3c22]: BUSY
+[debug] [2020-02-29T19:00:46.143Z] DEBUG: [runtime-status] [13638] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:00:46.180Z] DEBUG: [runtime-status] [13638] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:00:46.207Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:00:46.290Z] DEBUG: [worker-~diagnostic~-2fbbc697-bd50-410a-9a31-f54a40b4880c]: exited
+[debug] [2020-02-29T19:00:46.291Z] DEBUG: [worker-~diagnostic~-2fbbc697-bd50-410a-9a31-f54a40b4880c]: FINISHED
+[debug] [2020-02-29T19:00:48.821Z] DEBUG: [runtime-status] [13647] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:00:48.830Z] DEBUG: [runtime-status] [13647] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:00:48.865Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:00:48.914Z] DEBUG: [worker-~diagnostic~-6064fbe0-0385-4ae2-b3ba-a22acb7c3c22]: exited
+[debug] [2020-02-29T19:00:48.915Z] DEBUG: [worker-~diagnostic~-6064fbe0-0385-4ae2-b3ba-a22acb7c3c22]: FINISHED
+[debug] [2020-02-29T19:04:09.554Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:04:10.563Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T19:04:10.617Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:04:10.618Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:04:10.619Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:04:10.620Z] DEBUG: [worker-~diagnostic~-a3b0a06b-c7e0-4dfa-97e0-d9d423a6ef4a]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13709.sock
+[debug] [2020-02-29T19:04:10.620Z] DEBUG: [worker-~diagnostic~-a3b0a06b-c7e0-4dfa-97e0-d9d423a6ef4a]: BUSY
+[debug] [2020-02-29T19:04:12.283Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:04:13.288Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:04:13.289Z] DEBUG: [worker-~diagnostic~-a3b0a06b-c7e0-4dfa-97e0-d9d423a6ef4a]: FINISHING
+[debug] [2020-02-29T19:04:13.316Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:04:13.317Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T19:04:13.317Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:04:13.318Z] DEBUG: [worker-~diagnostic~-72d56d81-15b4-4f23-8128-ee4b3fe9eb6d]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13718.sock
+[debug] [2020-02-29T19:04:13.318Z] DEBUG: [worker-~diagnostic~-72d56d81-15b4-4f23-8128-ee4b3fe9eb6d]: BUSY
+[debug] [2020-02-29T19:04:18.680Z] DEBUG: [runtime-status] [13709] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:04:18.752Z] DEBUG: [runtime-status] [13709] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:04:18.813Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:04:18.871Z] DEBUG: [worker-~diagnostic~-a3b0a06b-c7e0-4dfa-97e0-d9d423a6ef4a]: exited
+[debug] [2020-02-29T19:04:18.872Z] DEBUG: [worker-~diagnostic~-a3b0a06b-c7e0-4dfa-97e0-d9d423a6ef4a]: FINISHED
+[debug] [2020-02-29T19:04:20.158Z] DEBUG: [runtime-status] [13718] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:04:20.192Z] DEBUG: [runtime-status] [13718] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:04:20.210Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:04:20.256Z] DEBUG: [worker-~diagnostic~-72d56d81-15b4-4f23-8128-ee4b3fe9eb6d]: exited
+[debug] [2020-02-29T19:04:20.257Z] DEBUG: [worker-~diagnostic~-72d56d81-15b4-4f23-8128-ee4b3fe9eb6d]: FINISHED
+[debug] [2020-02-29T19:05:06.151Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:07.157Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T19:05:07.184Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:07.185Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:05:07.185Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:07.186Z] DEBUG: [worker-~diagnostic~-b7e4792f-5574-4865-8215-394fe2517d3b]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13731.sock
+[debug] [2020-02-29T19:05:07.187Z] DEBUG: [worker-~diagnostic~-b7e4792f-5574-4865-8215-394fe2517d3b]: BUSY
+[debug] [2020-02-29T19:05:08.823Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:08.918Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:09.921Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:09.922Z] DEBUG: [worker-~diagnostic~-b7e4792f-5574-4865-8215-394fe2517d3b]: FINISHING
+[debug] [2020-02-29T19:05:09.953Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:09.954Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T19:05:09.954Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:09.955Z] DEBUG: [worker-~diagnostic~-6c49f104-5f9f-4dec-b16a-2a2790168a57]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13740.sock
+[debug] [2020-02-29T19:05:09.955Z] DEBUG: [worker-~diagnostic~-6c49f104-5f9f-4dec-b16a-2a2790168a57]: BUSY
+[debug] [2020-02-29T19:05:14.867Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:15.880Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:15.881Z] DEBUG: [worker-~diagnostic~-6c49f104-5f9f-4dec-b16a-2a2790168a57]: FINISHING
+[debug] [2020-02-29T19:05:15.916Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:15.922Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T19:05:15.922Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:15.923Z] DEBUG: [worker-~diagnostic~-d7e05045-33be-4233-98b0-ea163098df21]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13749.sock
+[debug] [2020-02-29T19:05:15.923Z] DEBUG: [worker-~diagnostic~-d7e05045-33be-4233-98b0-ea163098df21]: BUSY
+[debug] [2020-02-29T19:05:16.093Z] DEBUG: [runtime-status] [13731] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:16.116Z] DEBUG: [runtime-status] [13731] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:16.161Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:16.216Z] DEBUG: [worker-~diagnostic~-b7e4792f-5574-4865-8215-394fe2517d3b]: exited
+[debug] [2020-02-29T19:05:16.216Z] DEBUG: [worker-~diagnostic~-b7e4792f-5574-4865-8215-394fe2517d3b]: FINISHED
+[debug] [2020-02-29T19:05:16.705Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:17.707Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:17.708Z] DEBUG: [worker-~diagnostic~-d7e05045-33be-4233-98b0-ea163098df21]: FINISHING
+[debug] [2020-02-29T19:05:17.708Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 2
+[debug] [2020-02-29T19:05:17.740Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:17.740Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T19:05:17.741Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:17.741Z] DEBUG: [worker-~diagnostic~-0fcd865e-107a-4bf9-ac8f-5a3360fa77cb]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13750.sock
+[debug] [2020-02-29T19:05:17.742Z] DEBUG: [worker-~diagnostic~-0fcd865e-107a-4bf9-ac8f-5a3360fa77cb]: BUSY
+[debug] [2020-02-29T19:05:18.180Z] DEBUG: [runtime-status] [13740] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:18.205Z] DEBUG: [runtime-status] [13740] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:18.220Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:18.336Z] DEBUG: [worker-~diagnostic~-6c49f104-5f9f-4dec-b16a-2a2790168a57]: exited
+[debug] [2020-02-29T19:05:18.337Z] DEBUG: [worker-~diagnostic~-6c49f104-5f9f-4dec-b16a-2a2790168a57]: FINISHED
+[debug] [2020-02-29T19:05:18.685Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:19.694Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:19.694Z] DEBUG: [worker-~diagnostic~-0fcd865e-107a-4bf9-ac8f-5a3360fa77cb]: FINISHING
+[debug] [2020-02-29T19:05:19.695Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 2
+[debug] [2020-02-29T19:05:19.745Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:19.746Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T19:05:19.746Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:19.747Z] DEBUG: [worker-~diagnostic~-d48b2e4d-d382-43c6-b889-2fd1b434a222]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13751.sock
+[debug] [2020-02-29T19:05:19.747Z] DEBUG: [worker-~diagnostic~-d48b2e4d-d382-43c6-b889-2fd1b434a222]: BUSY
+[debug] [2020-02-29T19:05:21.030Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:22.038Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:22.039Z] DEBUG: [worker-~diagnostic~-d48b2e4d-d382-43c6-b889-2fd1b434a222]: FINISHING
+[debug] [2020-02-29T19:05:22.083Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:22.083Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=4
+[debug] [2020-02-29T19:05:22.084Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:22.084Z] DEBUG: [worker-~diagnostic~-1dcd99d0-bf4a-429d-afd2-3262335eed28]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13760.sock
+[debug] [2020-02-29T19:05:22.085Z] DEBUG: [worker-~diagnostic~-1dcd99d0-bf4a-429d-afd2-3262335eed28]: BUSY
+[debug] [2020-02-29T19:05:22.940Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:23.953Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:23.954Z] DEBUG: [worker-~diagnostic~-1dcd99d0-bf4a-429d-afd2-3262335eed28]: FINISHING
+[debug] [2020-02-29T19:05:24.038Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:24.038Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=5
+[debug] [2020-02-29T19:05:24.039Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:24.039Z] DEBUG: [worker-~diagnostic~-476db596-88dd-4f47-8c28-7056c9af31a1]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13761.sock
+[debug] [2020-02-29T19:05:24.040Z] DEBUG: [worker-~diagnostic~-476db596-88dd-4f47-8c28-7056c9af31a1]: BUSY
+[debug] [2020-02-29T19:05:25.563Z] DEBUG: [runtime-status] [13749] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:25.605Z] DEBUG: [runtime-status] [13749] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:25.620Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:26.006Z] DEBUG: [worker-~diagnostic~-d7e05045-33be-4233-98b0-ea163098df21]: exited
+[debug] [2020-02-29T19:05:26.007Z] DEBUG: [worker-~diagnostic~-d7e05045-33be-4233-98b0-ea163098df21]: FINISHED
+[debug] [2020-02-29T19:05:28.818Z] DEBUG: [runtime-status] [13750] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:28.949Z] DEBUG: [runtime-status] [13750] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:29.090Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:29.433Z] DEBUG: [worker-~diagnostic~-0fcd865e-107a-4bf9-ac8f-5a3360fa77cb]: exited
+[debug] [2020-02-29T19:05:29.433Z] DEBUG: [worker-~diagnostic~-0fcd865e-107a-4bf9-ac8f-5a3360fa77cb]: FINISHED
+[debug] [2020-02-29T19:05:31.366Z] DEBUG: [runtime-status] [13751] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:31.425Z] DEBUG: [runtime-status] [13751] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:31.447Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:31.711Z] DEBUG: [worker-~diagnostic~-d48b2e4d-d382-43c6-b889-2fd1b434a222]: exited
+[debug] [2020-02-29T19:05:31.711Z] DEBUG: [worker-~diagnostic~-d48b2e4d-d382-43c6-b889-2fd1b434a222]: FINISHED
+[debug] [2020-02-29T19:05:32.625Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:33.669Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:33.669Z] DEBUG: [worker-~diagnostic~-476db596-88dd-4f47-8c28-7056c9af31a1]: FINISHING
+[debug] [2020-02-29T19:05:33.670Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 5 --> 2
+[debug] [2020-02-29T19:05:33.745Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:33.746Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=3
+[debug] [2020-02-29T19:05:33.746Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:33.747Z] DEBUG: [worker-~diagnostic~-e6ee7209-861e-4ada-b1aa-74ff0d5cf915]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13770.sock
+[debug] [2020-02-29T19:05:33.747Z] DEBUG: [worker-~diagnostic~-e6ee7209-861e-4ada-b1aa-74ff0d5cf915]: BUSY
+[debug] [2020-02-29T19:05:33.940Z] DEBUG: [runtime-status] [13760] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:34.056Z] DEBUG: [runtime-status] [13760] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:34.091Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:34.185Z] DEBUG: [worker-~diagnostic~-1dcd99d0-bf4a-429d-afd2-3262335eed28]: exited
+[debug] [2020-02-29T19:05:34.185Z] DEBUG: [worker-~diagnostic~-1dcd99d0-bf4a-429d-afd2-3262335eed28]: FINISHED
+[debug] [2020-02-29T19:05:34.997Z] DEBUG: [runtime-status] [13761] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:35.070Z] DEBUG: [runtime-status] [13761] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:35.088Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:35.162Z] DEBUG: [worker-~diagnostic~-476db596-88dd-4f47-8c28-7056c9af31a1]: exited
+[debug] [2020-02-29T19:05:35.163Z] DEBUG: [worker-~diagnostic~-476db596-88dd-4f47-8c28-7056c9af31a1]: FINISHED
+[debug] [2020-02-29T19:05:36.760Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:36.873Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:37.846Z] DEBUG: [runtime-status] [13770] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:37.863Z] DEBUG: [runtime-status] [13770] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:37.876Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:37.876Z] DEBUG: [worker-~diagnostic~-e6ee7209-861e-4ada-b1aa-74ff0d5cf915]: FINISHING
+[debug] [2020-02-29T19:05:37.876Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 3 --> 1
+[debug] [2020-02-29T19:05:37.918Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:37.919Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T19:05:37.919Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:37.920Z] DEBUG: [worker-~diagnostic~-27bd3b6c-d1c2-435a-909b-b6bfb84868d4]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13779.sock
+[debug] [2020-02-29T19:05:37.921Z] DEBUG: [worker-~diagnostic~-27bd3b6c-d1c2-435a-909b-b6bfb84868d4]: BUSY
+[debug] [2020-02-29T19:05:37.922Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:37.997Z] DEBUG: [worker-~diagnostic~-e6ee7209-861e-4ada-b1aa-74ff0d5cf915]: exited
+[debug] [2020-02-29T19:05:37.997Z] DEBUG: [worker-~diagnostic~-e6ee7209-861e-4ada-b1aa-74ff0d5cf915]: FINISHED
+[debug] [2020-02-29T19:05:40.537Z] DEBUG: [runtime-status] [13779] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:40.546Z] DEBUG: [runtime-status] [13779] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:40.657Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:40.709Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:40.792Z] DEBUG: [worker-~diagnostic~-27bd3b6c-d1c2-435a-909b-b6bfb84868d4]: exited
+[debug] [2020-02-29T19:05:40.793Z] DEBUG: [worker-~diagnostic~-27bd3b6c-d1c2-435a-909b-b6bfb84868d4]: FINISHED
+[debug] [2020-02-29T19:05:41.724Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T19:05:41.765Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:41.765Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:05:41.766Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:41.766Z] DEBUG: [worker-~diagnostic~-8a16a66b-e36a-4139-b23c-7c45323a8657]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13782.sock
+[debug] [2020-02-29T19:05:41.767Z] DEBUG: [worker-~diagnostic~-8a16a66b-e36a-4139-b23c-7c45323a8657]: BUSY
+[debug] [2020-02-29T19:05:42.947Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:43.042Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:44.044Z] DEBUG: [worker-pool] Marking BUSY worker to finish (~diagnostic~)
+[debug] [2020-02-29T19:05:44.044Z] DEBUG: [worker-~diagnostic~-8a16a66b-e36a-4139-b23c-7c45323a8657]: FINISHING
+[debug] [2020-02-29T19:05:44.071Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:44.072Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=2
+[debug] [2020-02-29T19:05:44.072Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:44.076Z] DEBUG: [worker-~diagnostic~-db545206-050b-4ddc-b0ca-0ea0a5241152]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13789.sock
+[debug] [2020-02-29T19:05:44.076Z] DEBUG: [worker-~diagnostic~-db545206-050b-4ddc-b0ca-0ea0a5241152]: BUSY
+[debug] [2020-02-29T19:05:45.678Z] DEBUG: [runtime-status] [13782] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:45.699Z] DEBUG: [runtime-status] [13782] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:45.716Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:45.846Z] DEBUG: [worker-~diagnostic~-8a16a66b-e36a-4139-b23c-7c45323a8657]: exited
+[debug] [2020-02-29T19:05:45.847Z] DEBUG: [worker-~diagnostic~-8a16a66b-e36a-4139-b23c-7c45323a8657]: FINISHED
+[debug] [2020-02-29T19:05:46.680Z] DEBUG: [runtime-status] [13789] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:46.690Z] DEBUG: [runtime-status] [13789] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:46.700Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:46.774Z] DEBUG: [worker-~diagnostic~-db545206-050b-4ddc-b0ca-0ea0a5241152]: exited
+[debug] [2020-02-29T19:05:46.775Z] DEBUG: [worker-~diagnostic~-db545206-050b-4ddc-b0ca-0ea0a5241152]: FINISHED
+[debug] [2020-02-29T19:05:49.545Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:05:50.564Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 2 --> 0
+[debug] [2020-02-29T19:05:50.599Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:05:50.600Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:05:50.601Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:05:50.602Z] DEBUG: [worker-~diagnostic~-6d086163-763b-416d-b875-4db48cb6fe13]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13798.sock
+[debug] [2020-02-29T19:05:50.603Z] DEBUG: [worker-~diagnostic~-6d086163-763b-416d-b875-4db48cb6fe13]: BUSY
+[debug] [2020-02-29T19:05:54.655Z] DEBUG: [runtime-status] [13798] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:05:54.666Z] DEBUG: [runtime-status] [13798] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:05:54.686Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:05:54.743Z] DEBUG: [worker-~diagnostic~-6d086163-763b-416d-b875-4db48cb6fe13]: exited
+[debug] [2020-02-29T19:05:54.743Z] DEBUG: [worker-~diagnostic~-6d086163-763b-416d-b875-4db48cb6fe13]: FINISHED
+[debug] [2020-02-29T19:06:16.940Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers
+[debug] [2020-02-29T19:06:17.947Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-02-29T19:06:17.966Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-29T19:06:17.967Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-29T19:06:17.967Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-29T19:06:17.968Z] DEBUG: [worker-~diagnostic~-48dc8a1e-413a-435e-a84d-6255d798c63c]: Assigning socketPath: /var/folders/pk/rrb362s96019s5td2fd91cjm0000gn/T/fire_emu_13807.sock
+[debug] [2020-02-29T19:06:17.968Z] DEBUG: [worker-~diagnostic~-48dc8a1e-413a-435e-a84d-6255d798c63c]: BUSY
+[debug] [2020-02-29T19:06:19.564Z] DEBUG: [runtime-status] [13807] Functions runtime initialized. {"cwd":"/Users/nathanbennett/Documents/healthtracker/functions","node_version":"12.14.0"}
+[debug] [2020-02-29T19:06:19.572Z] DEBUG: [runtime-status] [13807] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[warn] ⚠  The Cloud Functions emulator requires the module "firebase-admin" to be installed. This package is in your package.json, but it's not available. You probably need to run "npm install" in your functions directory.
+[debug] [2020-02-29T19:06:19.580Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
+[debug] [2020-02-29T19:06:19.620Z] DEBUG: [worker-~diagnostic~-48dc8a1e-413a-435e-a84d-6255d798c63c]: exited
+[debug] [2020-02-29T19:06:19.621Z] DEBUG: [worker-~diagnostic~-48dc8a1e-413a-435e-a84d-6255d798c63c]: FINISHED

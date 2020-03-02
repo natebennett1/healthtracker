@@ -104,10 +104,10 @@ export function App(props) {
         </List>
       </Drawer>
       <Route path="/app/Survey">
-        <Survey user={user}/>
+        <Survey user={user} />
       </Route>
       <Route path="/app/Chart">
-        <Chart user={user}/>
+        <Chart user={user} />
       </Route>
     </div>
   );

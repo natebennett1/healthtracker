@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { App } from "./App";
-import { SignIn, Signup} from "./auth"
+import { SignIn, SignUp } from "./auth";
 import { BrowserRouter, Route } from "react-router-dom";
 
 ReactDOM.render(

@@ -28,7 +28,7 @@ const client = new twilio(accountSid, authToken)
 const sendSMS = (to, body) => {
     client.messages.create({
         body:body,
-        to: "+1"+to
+        to: "+1"+to,
         from: "+15083186874"
     })
 }

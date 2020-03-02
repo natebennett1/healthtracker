@@ -1,4 +1,3 @@
-auth.js;
 import React, { useState, useEffect } from "react";
 import MenuIcon from "@material-ui/icons/Menu";
 import {

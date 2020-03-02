@@ -15,11 +15,13 @@ import {
   Radio
 } from "@material-ui/core";
 import { Line } from "react-chartjs-2";
+import { db } from "./firebase";
 
 export default function Chart(props) {
   const [surveys, setSurveys] = useState([]);
   const [labels, setLabels] = useState([]);
   const [dataSets, setDataSets] = useState([]);
+  const moment = require("moment");
 
   useEffect(() => {
     const unsub = db
@@ -30,6 +32,8 @@ export default function Chart(props) {
         const surveys = snapshot.docs.map(doc => {
           const survey = {
             sleep: doc.data().sleep,
+            exercise: doc.data().exercise,
+            scriptures: doc.data().scriptures,
             happiness: doc.data().happiness,
             date: new Date(doc.data().date.seconds * 1000),
             id: doc.id
@@ -37,13 +41,13 @@ export default function Chart(props) {
           return survey;
         });
 
-        const sorted = surveys.sort((a,b) => {
-            if(a.date>b.date){
-                return 1
-            }else{
-                return -1
-            }
-        })
+        const sorted = surveys.sort((a, b) => {
+          if (a.date > b.date) {
+            return 1;
+          } else {
+            return -1;
+          }
+        });
         setSurveys(surveys);
       });
   }, []);
@@ -64,6 +68,22 @@ export default function Chart(props) {
     };
     sets.push(sleep);
 
+    const exercise = {
+      label: "Hours of Exercise",
+      data: surveys.map(s => s.exercise),
+      borderColor: "green",
+      borderWidth: 1
+    };
+    sets.push(exercise);
+
+    const scriptures = {
+      label: "Hours of scripture study",
+      data: surveys.map(s => s.scriptures),
+      borderColor: "yellow",
+      borderWidth: 1
+    };
+    sets.push(scriptures);
+
     const happiness = {
       label: "Happiness",
       data: surveys.map(s => s.happiness),
@@ -72,7 +92,7 @@ export default function Chart(props) {
     };
     sets.push(sleep);
 
-    setDataSets(sets)
+    setDataSets(sets);
   }, [surveys]);
 
   return (
@@ -82,12 +102,14 @@ export default function Chart(props) {
       >
         <Typography variant="h4">Survey</Typography>
         <Line
-            data={{
-                labels:labels,
-                datasets: dataSets
-            }}
+          data={{
+            labels: labels,
+            datasets: dataSets
+          }}
         />
       </paper>
     </div>
   );
+
+
 }

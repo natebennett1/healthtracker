@@ -24,6 +24,8 @@ import { db } from "./firebase";
 export default function Survey(props) {
   const [sleep, setSleep] = useState("");
   const [happiness, setHappiness] = useState(0);
+  const [scriptures, setScriptures] = useState("");
+  const [exercise, setExercise] = useState("");
 
   const handleSave = () => {
     db.collection("users")
@@ -32,11 +34,16 @@ export default function Survey(props) {
       .add({
         sleep: sleep,
         happiness: happiness,
+        scriptures: scriptures,
+        exercise: exercise,
+
         date: new Date()
       })
       .then(() => {
         setSleep("");
         setHappiness(0);
+        setScriptures("");
+        setExercise("");
       });
   };
 
@@ -49,11 +56,27 @@ export default function Survey(props) {
         <Typography style={{ marginTop: 16 }}>
           How many hours of sleep did you get last night?
         </Typography>
-        <Textfield
+        <TextField
           fullWidth
           value={sleep}
           onChange={e => setSleep(e.target.value)}
-        ></Textfield>
+        ></TextField>
+          <Typography style={{ marginTop: 16 }}>
+            How many hours of exercise?
+          </Typography>
+          <TextField
+            fullWidth
+            value={exercise}
+            onChange={e => setExercise(e.target.value)}
+          ></TextField>
+            <Typography style={{ marginTop: 16 }}>
+          How many hours of scripture study?
+        </Typography>
+        <TextField
+          fullWidth
+          value={scriptures}
+          onChange={e => setScriptures(e.target.value)}
+        ></TextField>
         <Typography style={{ marginTop: 16 }}>
           How happy were you today?
         </Typography>

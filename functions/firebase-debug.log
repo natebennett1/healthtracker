@@ -1309,3 +1309,4 @@
 [debug] [2020-02-29T19:06:19.580Z] [functions] Your functions could not be parsed due to an issue with your node_modules (see above)
 [debug] [2020-02-29T19:06:19.620Z] DEBUG: [worker-~diagnostic~-48dc8a1e-413a-435e-a84d-6255d798c63c]: exited
 [debug] [2020-02-29T19:06:19.621Z] DEBUG: [worker-~diagnostic~-48dc8a1e-413a-435e-a84d-6255d798c63c]: FINISHED
+[debug] [2020-02-29T19:07:11.104Z] DEBUG: File /Users/nathanbennett/Documents/healthtracker/functions/index.js changed, reloading triggers

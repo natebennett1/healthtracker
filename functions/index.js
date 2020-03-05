@@ -38,5 +38,9 @@ module.exports = {
     sendReminder: functions.pubsub.schedule("every day 09:00").onRun((context) => {
         sendSMS("8016885885", "Hey, take your HT survey. https://healthtracker-62372.firebaseio.com")
         return null
-    })
+    }),
+sendInvite : functions.https.onCall((data, context) => {
+  sendSMS(data.number, data.message)
+  return "Invite Sent"
+})
 };

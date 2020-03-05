@@ -1,6 +1,7 @@
 import * as firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
+import "firebase/functions"
 
 const firebaseConfig = {
   apiKey: "AIzaSyD0XslIC6ftIiO4Gz-2GkeDxjGGTNJ-j6Q",
@@ -11,9 +12,11 @@ const firebaseConfig = {
   messagingSenderId: "289322573005",
   appId: "1:289322573005:web:8e62cd12adc1d830c41d84"
 };
-// Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
 
 export const auth = firebase.auth();
 
 export const db = firebase.firestore();
+
+export const functions = firebase.functions()

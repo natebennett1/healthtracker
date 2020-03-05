@@ -16,6 +16,13 @@ import {
 } from "@material-ui/core";
 import { Line } from "react-chartjs-2";
 import { db } from "./firebase";
+import { makeStyles } from "@material-ui/core/styles";
+import Table from "@material-ui/core/Table";
+import TableBody from "@material-ui/core/TableBody";
+import TableCell from "@material-ui/core/TableCell";
+import TableContainer from "@material-ui/core/TableContainer";
+import TableHead from "@material-ui/core/TableHead";
+import TableRow from "@material-ui/core/TableRow";
 
 export default function Chart(props) {
   const [surveys, setSurveys] = useState([]);
@@ -90,7 +97,7 @@ export default function Chart(props) {
       borderColor: "blue",
       borderWidth: 1
     };
-    sets.push(sleep);
+    sets.push(happiness);
 
     setDataSets(sets);
   }, [surveys]);
@@ -98,7 +105,7 @@ export default function Chart(props) {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <paper
-        style={{ padding: 12, marginTop: 30, width: "100", maxWidth: 400 }}
+        style={{ padding: 12, marginTop: 30, width: "200", maxWidth: 400 }}
       >
         <Typography variant="h4">Survey</Typography>
         <Line
@@ -107,9 +114,36 @@ export default function Chart(props) {
             datasets: dataSets
           }}
         />
+          <TableContainer component={Paper}>
+        <Table >
+          <TableHead>
+            <TableRow>
+              <TableCell>Survey Data</TableCell>
+              <TableCell align="right">date</TableCell>
+              <TableCell align="right">sleep</TableCell>
+              <TableCell align="right">Exercise</TableCell>
+              <TableCell align="right">scriptures</TableCell>
+              <TableCell align="right">happiness</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {surveys.map(survey => (
+              <TableRow key={survey.id}>
+
+              
+                <TableCell align="right">{moment(survey.date).format("M/D/YY")}</TableCell>
+                <TableCell align="right">{survey.sleep}</TableCell>
+                <TableCell align="right">{survey.exercise}</TableCell>
+                <TableCell align="right">{survey.scriptures}</TableCell>
+                <TableCell align="right">{survey.happiness}</TableCell>
+              </TableRow>
+            ))}
+          </TableBody>
+        </Table>
+      </TableContainer>
       </paper>
     </div>
-  );
+    );
+  }
 
-
-}
+      

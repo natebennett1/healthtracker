@@ -86,7 +86,7 @@ export function App(props) {
           <ListItem
             onClick={() => {
               props.history.push("/app/survey");
-              setDrawerOpen = false;
+              setDrawerOpen (false);
             }}
             button
           >
@@ -95,7 +95,7 @@ export function App(props) {
           <ListItem
             onClick={() => {
               props.history.push("/app/chart");
-              setDrawerOpen = false;
+              setDrawerOpen (false);
             }}
             button
           >
